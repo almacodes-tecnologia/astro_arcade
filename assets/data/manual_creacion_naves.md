@@ -842,3 +842,43 @@ Por tanto, cada vez que añadamos una geometría, un estilo o una característic
 6. Se comprueba visualmente en el juego.
 
 Así tendremos un catálogo de naves, enemigos y jefes coherente, ampliable y documentado, sin propiedades ficticias ni configuraciones que parezcan funcionar pero que el código ignore.
+
+
+
+1. Fondos procedurales — BackgroundRenderer
+Hay 24 tipos de fondo disponibles. Todos se generan mediante Canvas, sin necesitar imágenes externas.
+Identificador JSON	Nombre para el manual
+estrellas	Campo de estrellas
+nebulosa	Nebulosa espacial
+asteroides	Campo de asteroides
+desierto	Desierto
+alienigena	Mundo alienígena
+industrial	Complejo industrial
+volcanico	Mundo volcánico
+congelado	Mundo congelado
+oceano	Mundo oceánico
+jungla	Jungla
+ciudad	Ciudad futurista
+cementerio	Cementerio espacial
+tormenta	Tormenta
+cristal	Mundo de cristal
+toxico	Mundo tóxico
+digital	Entorno digital
+galaxia	Galaxia
+eclipse	Eclipse
+ruinas	Ruinas
+metal	Superficie metálica
+nuclear	Zona nuclear
+tormenta_arena	Tormenta de arena
+profundo	Espacio profundo
+dimensional	Dimensión desconocida
+
+Configuración en el JSON:
+"visual": {
+  "background": "nebulosa",
+  "music": "assets/audio/music/sector_01.mp3",
+  "scrollSpeed": 35
+}
+
+
+El valor de background debe coincidir con uno de los identificadores anteriores. Si se introduce uno desconocido, el renderizador utiliza estrellas como fondo alternativo.

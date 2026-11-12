@@ -4,7 +4,7 @@
   "name": "Frontera de Titán",
   "description": "Una zona militar fuertemente protegida. Sus defensas no permiten errores.",
   "visual": {
-    "background": "assets/images/backgrounds/sector_04.png",
+    "background": "tormenta_arena",
     "music": "assets/audio/music/sector_04.mp3",
     "scrollSpeed": 65
   },
@@ -89,6 +89,6 @@
   "bossId": "sector_04_boss",
   "unlock": {
     "coins": 0,
-    "license": "C"
+    "license": null
   }
 }

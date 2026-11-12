@@ -4,7 +4,7 @@
   "name": "Nebulosa Carmesí",
   "description": "Una región de turbulencias electromagnéticas dominada por escuadrones de combate.",
   "visual": {
-    "background": "assets/images/backgrounds/sector_03.png",
+    "background": "digital",
     "music": "assets/audio/music/sector_03.mp3",
     "scrollSpeed": 55
   },
@@ -89,6 +89,6 @@
   "bossId": "sector_03_boss",
   "unlock": {
     "coins": 0,
-    "license": "B"
+    "license": null
   }
 }

@@ -5,7 +5,7 @@
   "description": "Los primeros territorios explorados.",
   "lore": "Durante décadas, la Frontera Exterior fue considerada una región sin interés estratégico. Sin embargo, las últimas expediciones han detectado señales de actividad en sectores que llevaban siglos abandonados. Nadie sabe quién las está emitiendo.",
   "visual": {
-    "background": "assets/images/backgrounds/sector_01.png",
+    "background": "nebulosa",
     "music": "assets/audio/music/sector_01.mp3",
     "scrollSpeed": 35
   },

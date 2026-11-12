@@ -4,7 +4,7 @@
   "name": "Núcleo de la Oscuridad",
   "description": "El último territorio conocido. Las fuerzas enemigas concentran aquí todo su poder.",
   "visual": {
-    "background": "assets/images/backgrounds/sector_05.png",
+    "background": "toxico",
     "music": "assets/audio/music/sector_05.mp3",
     "scrollSpeed": 75
   },
@@ -97,6 +97,6 @@
   "bossId": "sector_05_boss",
   "unlock": {
     "coins": 0,
-    "license": "D"
+    "license": null
   }
 }

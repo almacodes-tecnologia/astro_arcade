@@ -4,7 +4,7 @@
   "name": "Cinturón de chatarra",
   "description": "Un antiguo campo de batalla convertido en un laberinto de restos metálicos.",
   "visual": {
-    "background": "assets/images/backgrounds/sector_02.png",
+    "background": "industrial",
     "music": "assets/audio/music/sector_02.mp3",
     "scrollSpeed": 45
   },
@@ -80,7 +80,7 @@
   },
   "bossId": "sector_02_boss",
   "unlock": {
-    "coins": 1,
+    "coins": 0,
     "license": null
   }
 }
