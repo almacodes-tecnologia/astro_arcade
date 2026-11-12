@@ -1,0 +1,94 @@
+{
+  "id": "valkyrie",
+  "name": "Valkyrie",
+  "description": "Caza de escolta de la flota estelar. Su chasis aerodinámico optimiza el flujo de energía permitiendo un control sobresaliente en cualquier situación.",
+
+  "stats": {
+    "speed": 310,
+    "health": 5,
+    "fireRate": 0.20,
+    "damage": 2
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 570,
+    "projectileWidth": 6,
+    "projectileHeight": 18
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "fighter",
+    "scale": 1.02,
+    "dimensions": {
+      "width": 64,
+      "height": 76
+    },
+    "colors": {
+      "primary": "#768296",
+      "secondary": "#A8B6CC",
+      "tertiary": "#E2E8F0",
+      "cockpit": "#2C3542",
+      "cockpitGlass": "#4DA6FF",
+      "outline": "#19202B",
+      "engine": "#3399FF",
+      "engineCore": "#E0F0FF",
+      "weapon": "#C2DFFF",
+      "detail": "#546073"
+    },
+    "body": {
+      "length": 1.04,
+      "width": 0.35,
+      "noseLength": 0.28,
+      "rearWidth": 0.32,
+      "armorPlates": true
+    },
+    "wings": {
+      "enabled": true,
+      "style": "swept",
+      "span": 1.30,
+      "frontPosition": 0.32,
+      "rearPosition": 0.76,
+      "tipLength": 0.18
+    },
+    "cockpit": {
+      "enabled": true,
+      "position": 0.28,
+      "width": 0.21,
+      "length": 0.29,
+      "style": "panoramic"
+    },
+    "engines": {
+      "count": 2,
+      "position": 0.84,
+      "separation": 0.48,
+      "size": 0.17,
+      "glow": true
+    },
+    "cannons": {
+      "count": 2,
+      "position": 0.17,
+      "separation": 0.32,
+      "size": 0.08
+    },
+    "fins": {
+      "enabled": true,
+      "count": 2,
+      "position": 0.75,
+      "size": 0.21
+    },
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": true,
+      "engineGlow": true,
+      "cockpitReflection": true,
+      "rivets": true
+    }
+  },
+  "unlock": {
+    "coins": 650,
+    "license": "A"
+  }
+}
