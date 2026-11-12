@@ -1,6 +1,10 @@
 {
   "ships": [
-    "scout"
+    "scout",
+    "phantom",
+    "raptor",
+    "striker",
+    "vanguard"
   ],
   "maps": [
     "sector_01",
