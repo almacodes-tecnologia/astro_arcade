@@ -1,0 +1,44 @@
+
+{
+  "id": "sector_01_boss",
+  "name": "Destructor de la Frontera",
+  "creatureType": "tentacles",
+  "health": 500,
+  "speed": 85,
+  "contactDamage": 2,
+  "score": 5000,
+
+  "movementPattern": "patrol",
+  "movementAmplitude": 75,
+
+  "projectileDamage": 1,
+  "projectileSpeed": 190,
+  "attackInterval": 1.8,
+  "projectileCount": 3,
+  "spreadAngle": 12,
+
+  "visual": {
+    "width": 220,
+    "height": 145,
+
+    "primaryColor": "#642B43",
+    "secondaryColor": "#A83C59",
+    "accentColor": "#FF536B",
+    "cockpitColor": "#55E6FF",
+    "outlineColor": "#241323",
+
+    "wingSpan": 1.55,
+    "engineCount": 4
+  },
+
+  "phases": [
+    {
+      "healthThreshold": 0.4,
+      "movementPattern": "zigzag",
+      "speedMultiplier": 1.45,
+      "attackInterval": 1.3,
+      "projectileCount": 5,
+      "spreadAngle": 20
+    }
+  ]
+}

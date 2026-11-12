@@ -1,0 +1,102 @@
+
+{
+  "id": "sector_05",
+  "name": "Núcleo de la Oscuridad",
+  "description": "El último territorio conocido. Las fuerzas enemigas concentran aquí todo su poder.",
+  "visual": {
+    "background": "assets/images/backgrounds/sector_05.png",
+    "music": "assets/audio/music/sector_05.mp3",
+    "scrollSpeed": 75
+  },
+  "difficulty": 5,
+  "waves": [
+    {
+      "id": "wave_01",
+      "enemies": [
+        { "type": "fighter_enemy", "count": 11, "formation": "line", "interval": 0.45 },
+        { "type": "sentinel_enemy", "count": 9, "formation": "line", "interval": 0.6 },
+        { "type": "drone_enemy", "count": 8, "formation": "v", "interval": 0.5 }
+      ]
+    },
+    {
+      "id": "wave_02",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 8, "formation": "line", "interval": 0.8 },
+        { "type": "drone_enemy", "count": 12, "formation": "line", "interval": 0.4 },
+        { "type": "fighter_enemy", "count": 10, "formation": "line", "interval": 0.45 }
+      ]
+    },
+    {
+      "id": "wave_03",
+      "enemies": [
+        { "type": "sentinel_enemy", "count": 10, "formation": "line", "interval": 0.55 },
+        { "type": "fighter_enemy", "count": 13, "formation": "line", "interval": 0.38 },
+        { "type": "bomber_enemy", "count": 7, "formation": "line", "interval": 0.75 }
+      ]
+    },
+    {
+      "id": "wave_04",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 9, "formation": "line", "interval": 0.7 },
+        { "type": "fighter_enemy", "count": 13, "formation": "line", "interval": 0.38 },
+        { "type": "drone_enemy", "count": 11, "formation": "line", "interval": 0.4 }
+      ]
+    },
+    {
+      "id": "wave_05",
+      "enemies": [
+        { "type": "sentinel_enemy", "count": 11, "formation": "line", "interval": 0.5 },
+        { "type": "fighter_enemy", "count": 15, "formation": "line", "interval": 0.35 },
+        { "type": "bomber_enemy", "count": 9, "formation": "line", "interval": 0.65 }
+      ]
+    },
+    {
+      "id": "wave_06",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 10, "formation": "line", "interval": 0.65 },
+        { "type": "fighter_enemy", "count": 15, "formation": "line", "interval": 0.33 },
+        { "type": "sentinel_enemy", "count": 10, "formation": "line", "interval": 0.45 }
+      ]
+    },
+    {
+      "id": "wave_07",
+      "enemies": [
+        { "type": "drone_enemy", "count": 14, "formation": "line", "interval": 0.35 },
+        { "type": "fighter_enemy", "count": 14, "formation": "line", "interval": 0.35 },
+        { "type": "patrol_enemy", "count": 10, "formation": "line", "interval": 0.4 }
+      ]
+    },
+    {
+      "id": "wave_08",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 10, "formation": "line", "interval": 0.6 },
+        { "type": "sentinel_enemy", "count": 12, "formation": "line", "interval": 0.45 },
+        { "type": "fighter_enemy", "count": 15, "formation": "line", "interval": 0.32 }
+      ]
+    },
+    {
+      "id": "wave_09",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 11, "formation": "line", "interval": 0.55 },
+        { "type": "drone_enemy", "count": 14, "formation": "line", "interval": 0.35 },
+        { "type": "fighter_enemy", "count": 16, "formation": "line", "interval": 0.3 }
+      ]
+    },
+    {
+      "id": "wave_10",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 12, "formation": "line", "interval": 0.5 },
+        { "type": "sentinel_enemy", "count": 13, "formation": "line", "interval": 0.4 },
+        { "type": "fighter_enemy", "count": 18, "formation": "line", "interval": 0.28 }
+      ]
+    }
+  ],
+  "reward": {
+    "coins": 50
+  },
+  "bossId": "sector_05_boss",
+  "unlock": {
+    "coins": 0,
+    "license": "D"
+  }
+}

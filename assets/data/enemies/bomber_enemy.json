@@ -1,0 +1,64 @@
+
+{
+  "id": "bomber_enemy",
+  "name": "Bombardero pesado",
+  "health": 12,
+  "speed": 65,
+  "contactDamage": 2,
+  "score": 500,
+  "rewardCoins": 4,
+  "movement": {
+    "behavior": "hold_position",
+    "pattern": "stationary",
+    "targetY": 0.22,
+    "amplitude": 0,
+    "frequency": 0,
+    "patrolSpeed": 0
+  },
+  "weapon": {
+    "type": "spread",
+    "damage": 2,
+    "projectileSpeed": 200,
+    "fireInterval": 2.8,
+    "burstCount": 3,
+    "cannonCount": 2,
+    "cannonPosition": 0.78,
+    "cannonSeparation": 0.55,
+    "cannonSize": 0.13
+  },
+  "visual": {
+    "shape": "bomber",
+    "dimensions": {
+      "width": 88,
+      "height": 68
+    },
+    "colors": {
+      "primary": "#596273",
+      "secondary": "#929DAF",
+      "accent": "#FFB84D",
+      "cockpit": "#55C9E8",
+      "engine": "#FF642E",
+      "outline": "#252D3B"
+    },
+    "wings": {
+      "enabled": true,
+      "style": "heavy",
+      "span": 1.25
+    },
+    "cockpit": {
+      "enabled": true
+    },
+    "engines": {
+      "enabled": true,
+      "count": 3
+    },
+    "fins": {
+      "enabled": true
+    },
+    "details": {
+      "enabled": true,
+      "armorSegments": true
+    }
+  },
+  "abilities": []
+}

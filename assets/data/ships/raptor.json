@@ -1,0 +1,94 @@
+{
+  "id": "raptor",
+  "name": "Raptor",
+  "description": "Caza de superioridad espacial reservado a pilotos experimentados. Combina una estructura aerodinámica con una potencia de fuego contundente.",
+
+  "stats": {
+    "speed": 340,
+    "health": 5,
+    "fireRate": 0.16,
+    "damage": 2
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 600,
+    "projectileWidth": 7,
+    "projectileHeight": 20
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "fighter",
+    "scale": 1.04,
+    "dimensions": {
+      "width": 64,
+      "height": 76
+    },
+    "colors": {
+      "primary": "#27765E",
+      "secondary": "#4CCB91",
+      "tertiary": "#C6FFE0",
+      "cockpit": "#123E38",
+      "cockpitGlass": "#64F0D1",
+      "outline": "#102C2A",
+      "engine": "#39E7A1",
+      "engineCore": "#E4FFF1",
+      "weapon": "#A4FFE0",
+      "detail": "#24634F"
+    },
+    "body": {
+      "length": 1.08,
+      "width": 0.36,
+      "noseLength": 0.32,
+      "rearWidth": 0.34,
+      "armorPlates": true
+    },
+    "wings": {
+      "enabled": true,
+      "style": "wide",
+      "span": 1.35,
+      "frontPosition": 0.31,
+      "rearPosition": 0.77,
+      "tipLength": 0.20
+    },
+    "cockpit": {
+      "enabled": true,
+      "position": 0.27,
+      "width": 0.23,
+      "length": 0.34,
+      "style": "panoramic"
+    },
+    "engines": {
+      "count": 3,
+      "position": 0.86,
+      "separation": 0.56,
+      "size": 0.20,
+      "glow": true
+    },
+    "cannons": {
+      "count": 2,
+      "position": 0.16,
+      "separation": 0.40,
+      "size": 0.09
+    },
+    "fins": {
+      "enabled": true,
+      "count": 2,
+      "position": 0.77,
+      "size": 0.24
+    },
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": true,
+      "engineGlow": true,
+      "cockpitReflection": true,
+      "rivets": true
+    }
+  },
+  "unlock": {
+    "coins": 1800,
+    "license": "D"
+  }
+}

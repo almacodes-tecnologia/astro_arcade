@@ -1,0 +1,17 @@
+{
+  "id": "C",
+  "name": "Licencia C",
+  "description": "Prueba avanzada de reflejos y precisión.",
+  "difficulty": 3,
+  "durationSeconds": 210,
+  "initialSpeed": 250,
+  "maxSpeed": 360,
+  "acceleration": 1.8,
+  "spawnInterval": 0.90,
+  "minObstacleGap": 115,
+  "maxObstacleGap": 170,
+  "obstacleWidth": 52,
+  "obstacleHeight": 52,
+  "playerHealth": 2,
+  "collisionDamage": 1
+}

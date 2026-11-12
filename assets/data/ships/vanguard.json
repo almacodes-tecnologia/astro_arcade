@@ -1,0 +1,94 @@
+{
+  "id": "vanguard",
+  "name": "Vanguard",
+  "description": "Caza táctico de nueva generación. Equilibrio entre velocidad, potencia y resistencia.",
+
+  "stats": {
+    "speed": 280,
+    "health": 4,
+    "fireRate": 0.22,
+    "damage": 1
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 560,
+    "projectileWidth": 6,
+    "projectileHeight": 17
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "fighter",
+    "scale": 1.0,
+    "dimensions": {
+      "width": 64,
+      "height": 76
+    },
+    "colors": {
+      "primary": "#B34A32",
+      "secondary": "#F08B52",
+      "tertiary": "#FFE0B0",
+      "cockpit": "#572B30",
+      "cockpitGlass": "#FFB36B",
+      "outline": "#351C2A",
+      "engine": "#FF633D",
+      "engineCore": "#FFF2C2",
+      "weapon": "#FFD1A1",
+      "detail": "#873D32"
+    },
+    "body": {
+      "length": 1.0,
+      "width": 0.38,
+      "noseLength": 0.29,
+      "rearWidth": 0.34,
+      "armorPlates": true
+    },
+    "wings": {
+      "enabled": true,
+      "style": "delta",
+      "span": 1.12,
+      "frontPosition": 0.30,
+      "rearPosition": 0.76,
+      "tipLength": 0.12
+    },
+    "cockpit": {
+      "enabled": true,
+      "position": 0.29,
+      "width": 0.22,
+      "length": 0.30,
+      "style": "panoramic"
+    },
+    "engines": {
+      "count": 2,
+      "position": 0.84,
+      "separation": 0.50,
+      "size": 0.18,
+      "glow": true
+    },
+    "cannons": {
+      "count": 2,
+      "position": 0.18,
+      "separation": 0.34,
+      "size": 0.075
+    },
+    "fins": {
+      "enabled": true,
+      "count": 2,
+      "position": 0.75,
+      "size": 0.22
+    },
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": true,
+      "engineGlow": true,
+      "cockpitReflection": true,
+      "rivets": true
+    }
+  },
+  "unlock": {
+    "coins": 1,
+    "license": "A"
+  }
+}

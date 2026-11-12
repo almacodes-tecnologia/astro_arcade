@@ -1,0 +1,104 @@
+
+{
+  "id": "striker",
+  "name": "Striker",
+  "description": "Caza pesado de superioridad espacial. Amplias alas de combate, blindaje reforzado y tres motores de propulsión.",
+
+  "stats": {
+    "speed": 300,
+    "health": 30,
+    "fireRate": 0.24,
+    "damage": 3
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 540,
+    "projectileWidth": 5,
+    "projectileHeight": 15
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "interceptor",
+    "scale": 1.0,
+
+    "dimensions": {
+      "width": 84,
+      "height": 78
+    },
+
+    "colors": {
+      "primary": "#8C315C",
+      "secondary": "#F06A9B",
+      "tertiary": "#FFE0EC",
+      "cockpit": "#421D3B",
+      "cockpitGlass": "#FF9FC8",
+      "outline": "#35152E",
+      "engine": "#FF572D",
+      "engineCore": "#FFE4A3",
+      "weapon": "#FFD0E3",
+      "detail": "#B94D78"
+    },
+
+    "body": {
+      "length": 1.0,
+      "width": 0.48,
+      "noseLength": 0.18,
+      "rearWidth": 0.46,
+      "armorPlates": true
+    },
+
+    "wings": {
+      "enabled": true,
+      "style": "swept",
+      "span": 1.35,
+      "frontPosition": 0.28,
+      "rearPosition": 0.72,
+      "tipLength": 0.28
+    },
+
+    "cockpit": {
+      "enabled": true,
+      "position": 0.27,
+      "width": 0.28,
+      "length": 0.24,
+      "style": "armored"
+    },
+
+    "engines": {
+      "count": 3,
+      "position": 0.86,
+      "separation": 0.34,
+      "size": 0.20,
+      "glow": true
+    },
+
+    "cannons": {
+      "count": 2,
+      "position": 0.13,
+      "separation": 0.34,
+      "size": 0.10
+    },
+
+    "fins": {
+      "enabled": true,
+      "count": 2,
+      "position": 0.73,
+      "size": 0.24
+    },
+
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": true,
+      "engineGlow": true,
+      "cockpitReflection": true
+    }
+  },
+
+  "unlock": {
+    "coins": 0,
+    "license": null
+  }
+}

@@ -1,0 +1,64 @@
+
+{
+  "id": "sentinel_enemy",
+  "name": "Centinela de combate",
+  "health": 8,
+  "speed": 75,
+  "contactDamage": 2,
+  "score": 350,
+  "rewardCoins": 3,
+  "movement": {
+    "behavior": "hold_position",
+    "pattern": "patrol",
+    "targetY": 0.25,
+    "amplitude": 85,
+    "frequency": 0,
+    "patrolSpeed": 85
+  },
+  "weapon": {
+    "type": "spread",
+    "damage": 1,
+    "projectileSpeed": 245,
+    "fireInterval": 2.6,
+    "burstCount": 3,
+    "cannonCount": 2,
+    "cannonPosition": 0.74,
+    "cannonSeparation": 0.4,
+    "cannonSize": 0.11
+  },
+  "visual": {
+    "shape": "interceptor",
+    "dimensions": {
+      "width": 70,
+      "height": 58
+    },
+    "colors": {
+      "primary": "#59617F",
+      "secondary": "#929FC7",
+      "accent": "#D8C8FF",
+      "cockpit": "#9CDBFF",
+      "engine": "#B47AFF",
+      "outline": "#292B48"
+    },
+    "wings": {
+      "enabled": true,
+      "style": "heavy",
+      "span": 1.4
+    },
+    "cockpit": {
+      "enabled": true
+    },
+    "engines": {
+      "enabled": true,
+      "count": 2
+    },
+    "fins": {
+      "enabled": true
+    },
+    "details": {
+      "enabled": true,
+      "armorSegments": true
+    }
+  },
+  "abilities": []
+}

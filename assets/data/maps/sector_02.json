@@ -1,0 +1,86 @@
+
+{
+  "id": "sector_02",
+  "name": "Cinturón de chatarra",
+  "description": "Un antiguo campo de batalla convertido en un laberinto de restos metálicos.",
+  "visual": {
+    "background": "assets/images/backgrounds/sector_02.png",
+    "music": "assets/audio/music/sector_02.mp3",
+    "scrollSpeed": 45
+  },
+  "difficulty": 2,
+  "waves": [
+    {
+      "id": "wave_01",
+      "enemies": [
+        { "type": "scout_enemy", "count": 10, "formation": "line", "interval": 0.7 },
+        { "type": "patrol_enemy", "count": 6, "formation": "v", "interval": 0.9 },
+        { "type": "drone_enemy", "count": 4, "formation": "line", "interval": 1.0 }
+      ]
+    },
+    {
+      "id": "wave_02",
+      "enemies": [
+        { "type": "fighter_enemy", "count": 7, "formation": "line", "interval": 0.75 },
+        { "type": "drone_enemy", "count": 7, "formation": "line", "interval": 0.7 },
+        { "type": "patrol_enemy", "count": 5, "formation": "v", "interval": 0.9 }
+      ]
+    },
+    {
+      "id": "wave_03",
+      "enemies": [
+        { "type": "sentinel_enemy", "count": 6, "formation": "line", "interval": 0.9 },
+        { "type": "patrol_enemy", "count": 7, "formation": "line", "interval": 0.75 },
+        { "type": "fighter_enemy", "count": 6, "formation": "v", "interval": 0.8 }
+      ]
+    },
+    {
+      "id": "wave_04",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 5, "formation": "line", "interval": 1.3 },
+        { "type": "fighter_enemy", "count": 8, "formation": "line", "interval": 0.7 },
+        { "type": "drone_enemy", "count": 6, "formation": "v", "interval": 0.75 }
+      ]
+    },
+    {
+      "id": "wave_05",
+      "enemies": [
+        { "type": "scout_enemy", "count": 12, "formation": "line", "interval": 0.5 },
+        { "type": "sentinel_enemy", "count": 5, "formation": "line", "interval": 0.9 },
+        { "type": "drone_enemy", "count": 6, "formation": "line", "interval": 0.65 }
+      ]
+    },
+    {
+      "id": "wave_06",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 6, "formation": "line", "interval": 1.1 },
+        { "type": "fighter_enemy", "count": 9, "formation": "line", "interval": 0.65 },
+        { "type": "sentinel_enemy", "count": 5, "formation": "v", "interval": 0.85 }
+      ]
+    },
+    {
+      "id": "wave_07",
+      "enemies": [
+        { "type": "patrol_enemy", "count": 9, "formation": "line", "interval": 0.6 },
+        { "type": "drone_enemy", "count": 8, "formation": "line", "interval": 0.6 },
+        { "type": "fighter_enemy", "count": 7, "formation": "v", "interval": 0.7 }
+      ]
+    },
+    {
+      "id": "wave_08",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 7, "formation": "line", "interval": 1.0 },
+        { "type": "sentinel_enemy", "count": 7, "formation": "line", "interval": 0.75 },
+        { "type": "fighter_enemy", "count": 9, "formation": "line", "interval": 0.6 }
+      ]
+    }
+  ],
+  "reward": {
+    "coins": 18
+  },
+  "bossId": "sector_02_boss",
+  "unlock": {
+    "coins": 1,
+    "license": null
+  }
+}

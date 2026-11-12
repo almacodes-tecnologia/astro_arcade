@@ -1,0 +1,94 @@
+
+{
+  "id": "sector_03",
+  "name": "Nebulosa Carmesí",
+  "description": "Una región de turbulencias electromagnéticas dominada por escuadrones de combate.",
+  "visual": {
+    "background": "assets/images/backgrounds/sector_03.png",
+    "music": "assets/audio/music/sector_03.mp3",
+    "scrollSpeed": 55
+  },
+  "difficulty": 3,
+  "waves": [
+    {
+      "id": "wave_01",
+      "enemies": [
+        { "type": "fighter_enemy", "count": 8, "formation": "line", "interval": 0.7 },
+        { "type": "drone_enemy", "count": 8, "formation": "line", "interval": 0.6 },
+        { "type": "patrol_enemy", "count": 5, "formation": "v", "interval": 0.8 }
+      ]
+    },
+    {
+      "id": "wave_02",
+      "enemies": [
+        { "type": "sentinel_enemy", "count": 7, "formation": "line", "interval": 0.85 },
+        { "type": "bomber_enemy", "count": 5, "formation": "line", "interval": 1.2 },
+        { "type": "fighter_enemy", "count": 7, "formation": "v", "interval": 0.7 }
+      ]
+    },
+    {
+      "id": "wave_03",
+      "enemies": [
+        { "type": "patrol_enemy", "count": 9, "formation": "line", "interval": 0.6 },
+        { "type": "fighter_enemy", "count": 8, "formation": "line", "interval": 0.6 },
+        { "type": "drone_enemy", "count": 6, "formation": "v", "interval": 0.7 }
+      ]
+    },
+    {
+      "id": "wave_04",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 6, "formation": "line", "interval": 1.0 },
+        { "type": "sentinel_enemy", "count": 7, "formation": "line", "interval": 0.8 },
+        { "type": "drone_enemy", "count": 8, "formation": "line", "interval": 0.55 }
+      ]
+    },
+    {
+      "id": "wave_05",
+      "enemies": [
+        { "type": "scout_enemy", "count": 12, "formation": "line", "interval": 0.45 },
+        { "type": "fighter_enemy", "count": 9, "formation": "line", "interval": 0.6 },
+        { "type": "sentinel_enemy", "count": 6, "formation": "v", "interval": 0.8 }
+      ]
+    },
+    {
+      "id": "wave_06",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 6, "formation": "line", "interval": 0.95 },
+        { "type": "fighter_enemy", "count": 10, "formation": "line", "interval": 0.55 },
+        { "type": "patrol_enemy", "count": 8, "formation": "v", "interval": 0.65 }
+      ]
+    },
+    {
+      "id": "wave_07",
+      "enemies": [
+        { "type": "sentinel_enemy", "count": 8, "formation": "line", "interval": 0.7 },
+        { "type": "drone_enemy", "count": 10, "formation": "line", "interval": 0.5 },
+        { "type": "fighter_enemy", "count": 9, "formation": "line", "interval": 0.55 }
+      ]
+    },
+    {
+      "id": "wave_08",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 7, "formation": "line", "interval": 0.9 },
+        { "type": "patrol_enemy", "count": 10, "formation": "line", "interval": 0.5 },
+        { "type": "fighter_enemy", "count": 10, "formation": "v", "interval": 0.5 }
+      ]
+    },
+    {
+      "id": "wave_09",
+      "enemies": [
+        { "type": "bomber_enemy", "count": 8, "formation": "line", "interval": 0.85 },
+        { "type": "sentinel_enemy", "count": 9, "formation": "line", "interval": 0.65 },
+        { "type": "fighter_enemy", "count": 12, "formation": "line", "interval": 0.45 }
+      ]
+    }
+  ],
+  "reward": {
+    "coins": 25
+  },
+  "bossId": "sector_03_boss",
+  "unlock": {
+    "coins": 0,
+    "license": "B"
+  }
+}

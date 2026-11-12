@@ -1,0 +1,41 @@
+{
+  "id": "sector_02_boss",
+  "name": "Coloso Acorazado",
+  "health": 750,
+  "speed": 65,
+  "contactDamage": 3,
+  "score": 7000,
+
+  "movementPattern": "patrol",
+  "movementAmplitude": 95,
+
+  "projectileDamage": 1,
+  "projectileSpeed": 210,
+  "attackInterval": 1.6,
+  "projectileCount": 3,
+  "spreadAngle": 16,
+
+  "visual": {
+    "width": 245,
+    "height": 165,
+    "primaryColor": "#45566C",
+    "secondaryColor": "#8295A8",
+    "accentColor": "#FFB347",
+    "cockpitColor": "#FF5E57",
+    "outlineColor": "#182431",
+    "wingSpan": 1.7,
+    "engineCount": 2,
+    "creatureType": "armored"
+  },
+
+  "phases": [
+    {
+      "healthThreshold": 0.5,
+      "movementPattern": "zigzag",
+      "speedMultiplier": 1.3,
+      "attackInterval": 1.2,
+      "projectileCount": 5,
+      "spreadAngle": 24
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "B",
+  "name": "Licencia B",
+  "description": "Mayor velocidad y obstáculos agrupados.",
+  "difficulty": 2,
+  "durationSeconds": 175,
+  "initialSpeed": 230,
+  "maxSpeed": 330,
+  "acceleration": 1.5,
+  "spawnInterval": 1.0,
+  "minObstacleGap": 130,
+  "maxObstacleGap": 190,
+  "obstacleWidth": 50,
+  "obstacleHeight": 50,
+  "playerHealth": 2,
+  "collisionDamage": 1
+}

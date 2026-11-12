@@ -1,0 +1,64 @@
+
+{
+  "id": "scout_enemy",
+  "name": "Explorador ligero",
+  "health": 3,
+  "speed": 105,
+  "contactDamage": 1,
+  "score": 150,
+  "rewardCoins": 1,
+  "movement": {
+    "behavior": "hold_position",
+    "pattern": "sine",
+    "targetY": 0.22,
+    "amplitude": 45,
+    "frequency": 1.2,
+    "patrolSpeed": 0
+  },
+  "weapon": {
+    "type": "single",
+    "damage": 1,
+    "projectileSpeed": 230,
+    "fireInterval": 3.2,
+    "burstCount": 1,
+    "cannonCount": 1,
+    "cannonPosition": 0.76,
+    "cannonSeparation": 0,
+    "cannonSize": 0.09
+  },
+  "visual": {
+    "shape": "fighter",
+    "dimensions": {
+      "width": 46,
+      "height": 38
+    },
+    "colors": {
+      "primary": "#397B9E",
+      "secondary": "#65B9D9",
+      "accent": "#A5F3FF",
+      "cockpit": "#8CF0FF",
+      "engine": "#55E6FF",
+      "outline": "#193D56"
+    },
+    "wings": {
+      "enabled": true,
+      "style": "swept",
+      "span": 1.15
+    },
+    "cockpit": {
+      "enabled": true
+    },
+    "engines": {
+      "enabled": true,
+      "count": 1
+    },
+    "fins": {
+      "enabled": true
+    },
+    "details": {
+      "enabled": true,
+      "armorSegments": false
+    }
+  },
+  "abilities": []
+}

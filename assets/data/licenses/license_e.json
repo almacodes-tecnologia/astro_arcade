@@ -1,0 +1,17 @@
+{
+  "id": "E",
+  "name": "Licencia E",
+  "description": "Examen de élite. Una prueba de resistencia y precisión.",
+  "difficulty": 5,
+  "durationSeconds": 360,
+  "initialSpeed": 300,
+  "maxSpeed": 440,
+  "acceleration": 2.4,
+  "spawnInterval": 0.65,
+  "minObstacleGap": 85,
+  "maxObstacleGap": 130,
+  "obstacleWidth": 56,
+  "obstacleHeight": 56,
+  "playerHealth": 1,
+  "collisionDamage": 1
+}

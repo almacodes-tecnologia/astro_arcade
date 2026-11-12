@@ -1,0 +1,17 @@
+{
+  "id": "D",
+  "name": "Licencia D",
+  "description": "Maniobras de alta velocidad entre grupos de obstáculos.",
+  "difficulty": 4,
+  "durationSeconds": 280,
+  "initialSpeed": 275,
+  "maxSpeed": 400,
+  "acceleration": 2.1,
+  "spawnInterval": 0.75,
+  "minObstacleGap": 100,
+  "maxObstacleGap": 150,
+  "obstacleWidth": 54,
+  "obstacleHeight": 54,
+  "playerHealth": 1,
+  "collisionDamage": 1
+}

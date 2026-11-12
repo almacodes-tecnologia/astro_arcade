@@ -1,0 +1,49 @@
+{
+  "id": "sector_05_boss",
+  "name": "Heraldo Abisal",
+  "health": 1600,
+  "speed": 105,
+  "contactDamage": 4,
+  "score": 16000,
+
+  "movementPattern": "zigzag",
+  "movementAmplitude": 140,
+
+  "projectileDamage": 2,
+  "projectileSpeed": 265,
+  "attackInterval": 1.25,
+  "projectileCount": 5,
+  "spreadAngle": 25,
+
+  "visual": {
+    "width": 260,
+    "height": 195,
+    "primaryColor": "#263E55",
+    "secondaryColor": "#397A87",
+    "accentColor": "#48E0C1",
+    "cockpitColor": "#F5FF8C",
+    "outlineColor": "#101F30",
+    "wingSpan": 1.65,
+    "engineCount": 5,
+    "creatureType": "tentacles"
+  },
+
+  "phases": [
+    {
+      "healthThreshold": 0.65,
+      "movementPattern": "patrol",
+      "speedMultiplier": 1.2,
+      "attackInterval": 1.1,
+      "projectileCount": 6,
+      "spreadAngle": 25
+    },
+    {
+      "healthThreshold": 0.3,
+      "movementPattern": "zigzag",
+      "speedMultiplier": 1.5,
+      "attackInterval": 0.8,
+      "projectileCount": 8,
+      "spreadAngle": 32
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "A",
+  "name": "Licencia A",
+  "description": "Prueba básica de pilotaje y evasión.",
+  "difficulty": 1,
+  "durationSeconds": 140,
+  "initialSpeed": 300,
+  "maxSpeed": 300,
+  "acceleration": 1.2,
+  "spawnInterval": 1.1,
+  "minObstacleGap": 145,
+  "maxObstacleGap": 210,
+  "obstacleWidth": 56,
+  "obstacleHeight": 56,
+  "playerHealth": 2,
+  "collisionDamage": 1
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sector_04_boss",
+  "name": "Devorador Espinado",
+  "health": 1200,
+  "speed": 75,
+  "contactDamage": 4,
+  "score": 12000,
+
+  "movementPattern": "patrol",
+  "movementAmplitude": 125,
+
+  "projectileDamage": 2,
+  "projectileSpeed": 245,
+  "attackInterval": 1.4,
+  "projectileCount": 5,
+  "spreadAngle": 22,
+
+  "visual": {
+    "width": 250,
+    "height": 185,
+    "primaryColor": "#65412D",
+    "secondaryColor": "#A66A3F",
+    "accentColor": "#E8A34D",
+    "cockpitColor": "#FF3D5A",
+    "outlineColor": "#281812",
+    "wingSpan": 1.8,
+    "engineCount": 4,
+    "creatureType": "spiked"
+  },
+
+  "phases": [
+    {
+      "healthThreshold": 0.5,
+      "movementPattern": "zigzag",
+      "speedMultiplier": 1.35,
+      "attackInterval": 1.1,
+      "projectileCount": 6,
+      "spreadAngle": 27
+    },
+    {
+      "healthThreshold": 0.2,
+      "movementPattern": "patrol",
+      "speedMultiplier": 1.6,
+      "attackInterval": 0.85,
+      "projectileCount": 8,
+      "spreadAngle": 35
+    }
+  ]
+}

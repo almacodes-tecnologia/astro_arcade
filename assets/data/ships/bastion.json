@@ -1,0 +1,94 @@
+{
+  "id": "bastion",
+  "name": "Bastion",
+  "description": "Cañonera pesada con blindaje reforzado y cuatro propulsores. Diseñada para resistir enfrentamientos prolongados.",
+
+  "stats": {
+    "speed": 220,
+    "health": 7,
+    "fireRate": 0.32,
+    "damage": 2
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 490,
+    "projectileWidth": 8,
+    "projectileHeight": 18
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "heavy",
+    "scale": 1.08,
+    "dimensions": {
+      "width": 64,
+      "height": 76
+    },
+    "colors": {
+      "primary": "#566D78",
+      "secondary": "#91AAB5",
+      "tertiary": "#D8E7E9",
+      "cockpit": "#263C49",
+      "cockpitGlass": "#68C9D8",
+      "outline": "#172A36",
+      "engine": "#E18B36",
+      "engineCore": "#FFF0B0",
+      "weapon": "#B5E5EA",
+      "detail": "#405864"
+    },
+    "body": {
+      "length": 1.08,
+      "width": 0.52,
+      "noseLength": 0.18,
+      "rearWidth": 0.48,
+      "armorPlates": true
+    },
+    "wings": {
+      "enabled": true,
+      "style": "heavy",
+      "span": 1.22,
+      "frontPosition": 0.38,
+      "rearPosition": 0.76,
+      "tipLength": 0.18
+    },
+    "cockpit": {
+      "enabled": true,
+      "position": 0.32,
+      "width": 0.27,
+      "length": 0.25,
+      "style": "armored"
+    },
+    "engines": {
+      "count": 4,
+      "position": 0.85,
+      "separation": 0.52,
+      "size": 0.19,
+      "glow": true
+    },
+    "cannons": {
+      "count": 2,
+      "position": 0.20,
+      "separation": 0.38,
+      "size": 0.10
+    },
+    "fins": {
+      "enabled": true,
+      "count": 4,
+      "position": 0.72,
+      "size": 0.19
+    },
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": true,
+      "engineGlow": true,
+      "cockpitReflection": true,
+      "rivets": true
+    }
+  },
+  "unlock": {
+    "coins": 0,
+    "license": "A"
+  }
+}
