@@ -1,0 +1,61 @@
+{
+  "id": "stalker_enemy",
+  "name": "Acechador fantasma",
+  "health": 3,
+  "speed": 120,
+  "contactDamage": 1,
+  "score": 180,
+  "rewardCoins": 1,
+  "movement": {
+    "behavior": "hold_position",
+    "pattern": "sine",
+    "targetY": 0.24,
+    "amplitude": 75,
+    "frequency": 1.5,
+    "patrolSpeed": 0
+  },
+  "weapon": {
+    "type": "single",
+    "damage": 1,
+    "projectileSpeed": 250,
+    "fireInterval": 2.2,
+    "burstCount": 1,
+    "cannonCount": 1,
+    "cannonPosition": 0.74,
+    "cannonSeparation": 0,
+    "cannonSize": 0.10
+  },
+  "visual": {
+    "shape": "drone",
+    "dimensions": {
+      "width": 45,
+      "height": 40
+    },
+    "colors": {
+      "primary": "#1B3B48",
+      "secondary": "#336D85",
+      "accent": "#FF2A85",
+      "cockpit": "#00F0FF",
+      "engine": "#FF007F",
+      "outline": "#0A171D"
+    },
+    "wings": {
+      "enabled": false
+    },
+    "cockpit": {
+      "enabled": true
+    },
+    "engines": {
+      "enabled": true,
+      "count": 1
+    },
+    "fins": {
+      "enabled": false
+    },
+    "details": {
+      "enabled": true,
+      "armorSegments": false
+    }
+  },
+  "abilities": []
+}
