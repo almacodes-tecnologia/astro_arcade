@@ -1,0 +1,94 @@
+{
+  "id": "solaris",
+  "name": "Solaris",
+  "description": "Caza de asalto impulsado por energía solar condensada. Ofrece una potencia de fuego devastadora a costa de una movilidad algo más rígida.",
+
+  "stats": {
+    "speed": 240,
+    "health": 6,
+    "fireRate": 0.28,
+    "damage": 2
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 520,
+    "projectileWidth": 8,
+    "projectileHeight": 19
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "heavy",
+    "scale": 1.05,
+    "dimensions": {
+      "width": 64,
+      "height": 76
+    },
+    "colors": {
+      "primary": "#B87A14",
+      "secondary": "#E5B842",
+      "tertiary": "#FFF3C4",
+      "cockpit": "#4D330A",
+      "cockpitGlass": "#FFD13B",
+      "outline": "#332104",
+      "engine": "#FF5722",
+      "engineCore": "#FFE082",
+      "weapon": "#FFE57F",
+      "detail": "#8A5A0A"
+    },
+    "body": {
+      "length": 1.06,
+      "width": 0.44,
+      "noseLength": 0.22,
+      "rearWidth": 0.42,
+      "armorPlates": true
+    },
+    "wings": {
+      "enabled": true,
+      "style": "heavy",
+      "span": 1.18,
+      "frontPosition": 0.35,
+      "rearPosition": 0.74,
+      "tipLength": 0.16
+    },
+    "cockpit": {
+      "enabled": true,
+      "position": 0.30,
+      "width": 0.24,
+      "length": 0.26,
+      "style": "armored"
+    },
+    "engines": {
+      "count": 3,
+      "position": 0.85,
+      "separation": 0.48,
+      "size": 0.18,
+      "glow": true
+    },
+    "cannons": {
+      "count": 2,
+      "position": 0.18,
+      "separation": 0.36,
+      "size": 0.09
+    },
+    "fins": {
+      "enabled": true,
+      "count": 4,
+      "position": 0.73,
+      "size": 0.18
+    },
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": true,
+      "engineGlow": true,
+      "cockpitReflection": true,
+      "rivets": true
+    }
+  },
+  "unlock": {
+    "coins": 950,
+    "license": "B"
+  }
+}
