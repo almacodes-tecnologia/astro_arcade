@@ -1,0 +1,34 @@
+{
+  "ships": [
+    "scout"
+  ],
+  "maps": [
+    "sector_01",
+    "sector_02",
+    "sector_03",
+    "sector_04",
+    "sector_05"
+  ],
+  "enemies": [
+    "scout_enemy",
+    "patrol_enemy",
+    "drone_enemy",
+    "sentinel_enemy",
+    "fighter_enemy",
+    "bomber_enemy"
+  ],
+  "bosses": [
+    "sector_01_boss",
+    "sector_02_boss",
+    "sector_03_boss",
+    "sector_04_boss",
+    "sector_05_boss"
+  ],
+  "licenses": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ]
+}
