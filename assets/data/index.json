@@ -29,10 +29,10 @@
     "sector_05_boss"
   ],
   "licenses": [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E"
+    "license_a",
+    "license_b",
+    "license_c",
+    "license_d",
+    "license_e"
   ]
 }
