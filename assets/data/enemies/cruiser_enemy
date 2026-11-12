@@ -1,0 +1,63 @@
+{
+  "id": "cruiser_enemy",
+  "name": "Crucero de asalto",
+  "health": 15,
+  "speed": 50,
+  "contactDamage": 3,
+  "score": 600,
+  "rewardCoins": 5,
+  "movement": {
+    "behavior": "hold_position",
+    "pattern": "sine",
+    "targetY": 0.20,
+    "amplitude": 50,
+    "frequency": 0.5,
+    "patrolSpeed": 0
+  },
+  "weapon": {
+    "type": "spread",
+    "damage": 2,
+    "projectileSpeed": 210,
+    "fireInterval": 3.0,
+    "burstCount": 4,
+    "cannonCount": 2,
+    "cannonPosition": 0.75,
+    "cannonSeparation": 0.60,
+    "cannonSize": 0.14
+  },
+  "visual": {
+    "shape": "bomber",
+    "dimensions": {
+      "width": 94,
+      "height": 72
+    },
+    "colors": {
+      "primary": "#4A2E6B",
+      "secondary": "#7D4FA3",
+      "accent": "#FFD700",
+      "cockpit": "#E066FF",
+      "engine": "#FF3366",
+      "outline": "#231333"
+    },
+    "wings": {
+      "enabled": true,
+      "style": "heavy",
+      "span": 1.40
+    },
+    "cockpit": {
+      "enabled": true
+    },
+    "engines": {
+      "enabled": true,
+      "count": 3
+    },
+    "fins": {
+      "enabled": true
+    },
+    "details": {
+      "enabled": true,
+      "armorSegments": true
+    }
+  },
+  "abilities": []
+}
