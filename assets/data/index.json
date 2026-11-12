@@ -4,7 +4,11 @@
     "phantom",
     "raptor",
     "striker",
-    "vanguard"
+    "vanguard",
+    "solaris",
+    "abyss",
+    "valkyrie",
+    "crimson_fang"
   ],
   "maps": [
     "sector_01",
@@ -19,7 +23,11 @@
     "drone_enemy",
     "sentinel_enemy",
     "fighter_enemy",
-    "bomber_enemy"
+    "bomber_enemy",
+    "interceptor_enemy",
+    "cruiser_enemy",
+    "stalker_enemy",
+    "plasma_guardian_enemy"
   ],
   "bosses": [
     "sector_01_boss",
