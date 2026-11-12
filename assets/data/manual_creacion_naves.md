@@ -882,3 +882,71 @@ Configuración en el JSON:
 
 
 El valor de background debe coincidir con uno de los identificadores anteriores. Si se introduce uno desconocido, el renderizador utiliza estrellas como fondo alternativo.
+
+
+
+# Formaciones de enemigos
+
+Astro Arcade dispone de ocho formaciones diferentes. Se seleccionan desde el JSON de cada oleada mediante el campo `formation`.
+
+Todas las formaciones son estáticas en el momento de aparición. Una vez colocados, los enemigos continúan con su movimiento habitual.
+
+## 1. line — Línea horizontal
+
+Distribuye los enemigos horizontalmente por la pantalla, manteniendo una separación uniforme.
+
+## 2. v — Formación en V
+
+Coloca los enemigos formando una V alrededor del centro, alternando sus posiciones a izquierda y derecha.
+
+## 3. random — Aleatoria
+
+Genera una posición horizontal aleatoria para cada enemigo dentro de los límites de la pantalla.
+
+## 4. columns — Columnas
+
+Distribuye los enemigos en varias columnas verticales, formando una cuadrícula.
+
+## 5. diamond — Rombo
+
+Distribuye los enemigos siguiendo el perímetro de un rombo, alrededor de un punto central.
+
+## 6. circle — Círculo
+
+Coloca los enemigos alrededor de una circunferencia, formando un anillo.
+
+## 7. diagonal — Diagonal
+
+Distribuye los enemigos siguiendo una línea diagonal oblicua, desde la parte inferior izquierda hacia la superior derecha.
+
+## 8. cross — Cruz
+
+Distribuye los enemigos en dos brazos perpendiculares: uno horizontal y otro vertical.
+
+## Configuración JSON
+
+Cada grupo de enemigos puede utilizar una formación diferente.
+
+Ejemplo:
+
+{
+  "type": "scout_enemy",
+  "count": 8,
+  "formation": "diamond",
+  "interval": 0.8
+}
+
+### Parámetros
+
+- `type`: identificador del enemigo.
+- `count`: cantidad de enemigos del grupo.
+- `formation`: formación que utilizarán.
+- `interval`: intervalo de aparición entre enemigos.
+
+### Compatibilidad
+
+- Las ocho formaciones funcionan con el sistema de oleadas.
+- También pueden utilizarse en el modo Supervivencia.
+- Los enemigos conservan su movimiento, disparos y colisiones habituales.
+- Las posiciones horizontales se limitan a los márgenes de pantalla.
+- Si se indica una formación desconocida, se utiliza `random`.

@@ -13,81 +13,81 @@
     {
       "id": "wave_01",
       "enemies": [
-        { "type": "fighter_enemy", "count": 11, "formation": "line", "interval": 0.45 },
-        { "type": "sentinel_enemy", "count": 9, "formation": "line", "interval": 0.6 },
-        { "type": "drone_enemy", "count": 8, "formation": "v", "interval": 0.5 }
+        { "type": "fighter_enemy", "count": 7, "formation": "diagonal", "interval": 0.8 },
+        { "type": "sentinel_enemy", "count": 6, "formation": "cross", "interval": 0.9 },
+        { "type": "drone_enemy", "count": 6, "formation": "diagonal", "interval": 0.85 }
       ]
     },
     {
       "id": "wave_02",
       "enemies": [
-        { "type": "bomber_enemy", "count": 8, "formation": "line", "interval": 0.8 },
-        { "type": "drone_enemy", "count": 12, "formation": "line", "interval": 0.4 },
-        { "type": "fighter_enemy", "count": 10, "formation": "line", "interval": 0.45 }
+        { "type": "bomber_enemy", "count": 5, "formation": "cross", "interval": 1.2 },
+        { "type": "drone_enemy", "count": 8, "formation": "diagonal", "interval": 0.75 },
+        { "type": "fighter_enemy", "count": 7, "formation": "cross", "interval": 0.8 }
       ]
     },
     {
       "id": "wave_03",
       "enemies": [
-        { "type": "sentinel_enemy", "count": 10, "formation": "line", "interval": 0.55 },
-        { "type": "fighter_enemy", "count": 13, "formation": "line", "interval": 0.38 },
-        { "type": "bomber_enemy", "count": 7, "formation": "line", "interval": 0.75 }
+        { "type": "sentinel_enemy", "count": 7, "formation": "diagonal", "interval": 0.85 },
+        { "type": "fighter_enemy", "count": 8, "formation": "cross", "interval": 0.75 },
+        { "type": "bomber_enemy", "count": 5, "formation": "diagonal", "interval": 1.1 }
       ]
     },
     {
       "id": "wave_04",
       "enemies": [
-        { "type": "bomber_enemy", "count": 9, "formation": "line", "interval": 0.7 },
-        { "type": "fighter_enemy", "count": 13, "formation": "line", "interval": 0.38 },
-        { "type": "drone_enemy", "count": 11, "formation": "line", "interval": 0.4 }
+        { "type": "bomber_enemy", "count": 6, "formation": "cross", "interval": 1.1 },
+        { "type": "fighter_enemy", "count": 8, "formation": "diagonal", "interval": 0.75 },
+        { "type": "drone_enemy", "count": 7, "formation": "cross", "interval": 0.8 }
       ]
     },
     {
       "id": "wave_05",
       "enemies": [
-        { "type": "sentinel_enemy", "count": 11, "formation": "line", "interval": 0.5 },
-        { "type": "fighter_enemy", "count": 15, "formation": "line", "interval": 0.35 },
-        { "type": "bomber_enemy", "count": 9, "formation": "line", "interval": 0.65 }
+        { "type": "sentinel_enemy", "count": 8, "formation": "diagonal", "interval": 0.8 },
+        { "type": "fighter_enemy", "count": 9, "formation": "cross", "interval": 0.7 },
+        { "type": "bomber_enemy", "count": 6, "formation": "diagonal", "interval": 1.0 }
       ]
     },
     {
       "id": "wave_06",
       "enemies": [
-        { "type": "bomber_enemy", "count": 10, "formation": "line", "interval": 0.65 },
-        { "type": "fighter_enemy", "count": 15, "formation": "line", "interval": 0.33 },
-        { "type": "sentinel_enemy", "count": 10, "formation": "line", "interval": 0.45 }
+        { "type": "bomber_enemy", "count": 7, "formation": "cross", "interval": 1.0 },
+        { "type": "fighter_enemy", "count": 9, "formation": "diagonal", "interval": 0.7 },
+        { "type": "sentinel_enemy", "count": 7, "formation": "cross", "interval": 0.8 }
       ]
     },
     {
       "id": "wave_07",
       "enemies": [
-        { "type": "drone_enemy", "count": 14, "formation": "line", "interval": 0.35 },
-        { "type": "fighter_enemy", "count": 14, "formation": "line", "interval": 0.35 },
-        { "type": "patrol_enemy", "count": 10, "formation": "line", "interval": 0.4 }
+        { "type": "drone_enemy", "count": 9, "formation": "diagonal", "interval": 0.7 },
+        { "type": "fighter_enemy", "count": 9, "formation": "cross", "interval": 0.7 },
+        { "type": "patrol_enemy", "count": 7, "formation": "diagonal", "interval": 0.8 }
       ]
     },
     {
       "id": "wave_08",
       "enemies": [
-        { "type": "bomber_enemy", "count": 10, "formation": "line", "interval": 0.6 },
-        { "type": "sentinel_enemy", "count": 12, "formation": "line", "interval": 0.45 },
-        { "type": "fighter_enemy", "count": 15, "formation": "line", "interval": 0.32 }
+        { "type": "bomber_enemy", "count": 7, "formation": "cross", "interval": 0.95 },
+        { "type": "sentinel_enemy", "count": 8, "formation": "diagonal", "interval": 0.75 },
+        { "type": "fighter_enemy", "count": 10, "formation": "cross", "interval": 0.65 }
       ]
     },
     {
       "id": "wave_09",
       "enemies": [
-        { "type": "bomber_enemy", "count": 11, "formation": "line", "interval": 0.55 },
-        { "type": "drone_enemy", "count": 14, "formation": "line", "interval": 0.35 },
-        { "type": "fighter_enemy", "count": 16, "formation": "line", "interval": 0.3 }
+        { "type": "bomber_enemy", "count": 8, "formation": "diagonal", "interval": 0.9 },
+        { "type": "drone_enemy", "count": 9, "formation": "cross", "interval": 0.7 },
+        { "type": "fighter_enemy", "count": 10, "formation": "diagonal", "interval": 0.65 }
       ]
     },
     {
       "id": "wave_10",
       "enemies": [
-        { "type": "bomber_enemy", "count": 12, "formation": "line", "interval": 0.5 },
-        { "type": "sentinel_enemy", "count": 13, "formation": "line", "interval": 0.4 },
-        { "type": "fighter_enemy", "count": 18, "formation": "line", "interval": 0.28 }
+        { "type": "bomber_enemy", "count": 8, "formation": "cross", "interval": 0.9 },
+        { "type": "sentinel_enemy", "count": 9, "formation": "diagonal", "interval": 0.7 },
+        { "type": "fighter_enemy", "count": 11, "formation": "cross", "interval": 0.6 }
       ]
     }
   ],
