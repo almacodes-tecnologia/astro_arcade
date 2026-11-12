@@ -1,0 +1,94 @@
+{
+  "id": "abyss",
+  "name": "Abyss",
+  "description": "Nave de incursión profunda adaptada para operar en condiciones de baja visibilidad. Destaca por su alta cadencia de disparo y agilidad en combate cerrado.",
+
+  "stats": {
+    "speed": 360,
+    "health": 3,
+    "fireRate": 0.15,
+    "damage": 1
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 590,
+    "projectileWidth": 5,
+    "projectileHeight": 16
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "interceptor",
+    "scale": 0.98,
+    "dimensions": {
+      "width": 64,
+      "height": 76
+    },
+    "colors": {
+      "primary": "#0F2027",
+      "secondary": "#203A43",
+      "tertiary": "#2C5364",
+      "cockpit": "#0A1318",
+      "cockpitGlass": "#00E5FF",
+      "outline": "#050A0D",
+      "engine": "#00FFC4",
+      "engineCore": "#E0FFF9",
+      "weapon": "#80F9FF",
+      "detail": "#142F38"
+    },
+    "body": {
+      "length": 1.10,
+      "width": 0.30,
+      "noseLength": 0.32,
+      "rearWidth": 0.26,
+      "armorPlates": false
+    },
+    "wings": {
+      "enabled": true,
+      "style": "delta",
+      "span": 1.25,
+      "frontPosition": 0.29,
+      "rearPosition": 0.80,
+      "tipLength": 0.20
+    },
+    "cockpit": {
+      "enabled": true,
+      "position": 0.27,
+      "width": 0.18,
+      "length": 0.30,
+      "style": "compact"
+    },
+    "engines": {
+      "count": 2,
+      "position": 0.86,
+      "separation": 0.45,
+      "size": 0.17,
+      "glow": true
+    },
+    "cannons": {
+      "count": 2,
+      "position": 0.15,
+      "separation": 0.30,
+      "size": 0.07
+    },
+    "fins": {
+      "enabled": true,
+      "count": 2,
+      "position": 0.78,
+      "size": 0.22
+    },
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": false,
+      "engineGlow": true,
+      "cockpitReflection": true,
+      "rivets": false
+    }
+  },
+  "unlock": {
+    "coins": 1400,
+    "license": "C"
+  }
+}
