@@ -1,0 +1,94 @@
+{
+  "id": "crimson_fang",
+  "name": "Crimson Fang",
+  "description": "Interceptador agresivo equipado con doble cañón frontal y propulsores de alta combustión. Diseñado para emboscadas relámpago.",
+
+  "stats": {
+    "speed": 330,
+    "health": 4,
+    "fireRate": 0.17,
+    "damage": 2
+  },
+
+  "weapon": {
+    "type": "single",
+    "projectileSpeed": 580,
+    "projectileWidth": 6,
+    "projectileHeight": 17
+  },
+
+  "visual": {
+    "type": "geometric",
+    "shape": "fighter",
+    "scale": 1.0,
+    "dimensions": {
+      "width": 64,
+      "height": 76
+    },
+    "colors": {
+      "primary": "#8A1C1C",
+      "secondary": "#C43D3D",
+      "tertiary": "#FFB8B8",
+      "cockpit": "#3B0D0D",
+      "cockpitGlass": "#FF6B6B",
+      "outline": "#210707",
+      "engine": "#FF2A00",
+      "engineCore": "#FFE0CC",
+      "weapon": "#FFD6D6",
+      "detail": "#661313"
+    },
+    "body": {
+      "length": 1.02,
+      "width": 0.36,
+      "noseLength": 0.30,
+      "rearWidth": 0.33,
+      "armorPlates": true
+    },
+    "wings": {
+      "enabled": true,
+      "style": "wide",
+      "span": 1.28,
+      "frontPosition": 0.31,
+      "rearPosition": 0.77,
+      "tipLength": 0.19
+    },
+    "cockpit": {
+      "enabled": true,
+      "position": 0.28,
+      "width": 0.22,
+      "length": 0.28,
+      "style": "armored"
+    },
+    "engines": {
+      "count": 2,
+      "position": 0.85,
+      "separation": 0.50,
+      "size": 0.18,
+      "glow": true
+    },
+    "cannons": {
+      "count": 2,
+      "position": 0.16,
+      "separation": 0.35,
+      "size": 0.085
+    },
+    "fins": {
+      "enabled": true,
+      "count": 2,
+      "position": 0.76,
+      "size": 0.22
+    },
+    "details": {
+      "panelLines": true,
+      "wingLights": true,
+      "armorSegments": true,
+      "engineGlow": true,
+      "cockpitReflection": true,
+      "rivets": true
+    }
+  },
+  "unlock": {
+    "coins": 1200,
+    "license": "B"
+  }
+}
