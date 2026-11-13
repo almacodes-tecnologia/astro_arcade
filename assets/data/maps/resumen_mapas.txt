@@ -1,0 +1,608 @@
+ASTRO ARCADE - INFORME DE MAPAS
+Archivos JSON encontrados: 5
+Mapas analizados: 5
+
+RESUMEN COMPARATIVO
+----------------------------------------------------------------------------------------------------
+MAPA                       DIFICULTAD   OLEADAS   ENEMIGOS    MEDIA   MAXIMO            JEFE
+----------------------------------------------------------------------------------------------------
+Frontera desconocida                1         8        121    15.12       18  sector_01_boss
+Cinturón de chatarra                2         8        135    16.88       19  sector_02_boss
+Nebulosa Carmesí                    3         9        173    19.22       22  sector_03_boss
+Frontera de Titán                   4         9        252    28.00       34  sector_04_boss
+Núcleo de la Oscuridad              5        10        231    23.10       28  sector_05_boss
+
+DETALLE INDIVIDUAL
+
+======================================================================
+MAPA: Frontera desconocida
+Archivo: sector_01.json
+ID: sector_01
+----------------------------------------------------------------------
+[INFORMACION GENERAL]
+Descripcion: Los primeros territorios explorados.
+Dificultad configurada: 1
+Numero de oleadas: 8
+Jefe final: sector_01_boss
+
+[RESUMEN DE ENEMIGOS]
+Total de enemigos previstos: 121
+Media por oleada: 15.12
+Oleada con mas enemigos: 18
+Oleada con menos enemigos: 12
+
+[COMPOSICION GLOBAL]
+scout_enemy: 30 apariciones previstas
+fighter_enemy: 29 apariciones previstas
+patrol_enemy: 20 apariciones previstas
+drone_enemy: 18 apariciones previstas
+sentinel_enemy: 16 apariciones previstas
+bomber_enemy: 8 apariciones previstas
+
+[PROGRESION DE CANTIDAD]
+wave_01 -> wave_02: +3
+wave_02 -> wave_03: +0
+wave_03 -> wave_04: -1
+wave_04 -> wave_05: +4
+wave_05 -> wave_06: -4
+wave_06 -> wave_07: +3
+wave_07 -> wave_08: -1
+
+[RECOMPENSAS Y DESBLOQUEO]
+Monedas recompensa: 10
+Coste desbloqueo: 0
+Licencia necesaria: No definido
+
+[ASPECTO Y ESCENARIO]
+Fondo: nebulosa
+Musica: assets/audio/music/sector_01.mp3
+Velocidad scroll: 35
+
+[DETALLE DE OLEADAS]
+
+OLEADA 1: wave_01
+-------------------------------------------------------
+Total enemigos: 12
+Tipos: scout_enemy x8, patrol_enemy x4
+Formaciones: line (1), v (1)
+Intervalo medio: 0.95 segundos
+Intervalo mas rapido: 0.80 segundos
+
+OLEADA 2: wave_02
+-------------------------------------------------------
+Total enemigos: 15
+Tipos: scout_enemy x8, patrol_enemy x4, drone_enemy x3
+Formaciones: line (2), v (1)
+Intervalo medio: 1.00 segundos
+Intervalo mas rapido: 0.80 segundos
+
+OLEADA 3: wave_03
+-------------------------------------------------------
+Total enemigos: 15
+Tipos: drone_enemy x6, sentinel_enemy x4, scout_enemy x5
+Formaciones: line (2), v (1)
+Intervalo medio: 1.03 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 4: wave_04
+-------------------------------------------------------
+Total enemigos: 14
+Tipos: fighter_enemy x6, patrol_enemy x5, sentinel_enemy x3
+Formaciones: line (2), v (1)
+Intervalo medio: 1.07 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 5: wave_05
+-------------------------------------------------------
+Total enemigos: 18
+Tipos: scout_enemy x9, fighter_enemy x5, sentinel_enemy x4
+Formaciones: line (2), v (1)
+Intervalo medio: 0.85 segundos
+Intervalo mas rapido: 0.65 segundos
+
+OLEADA 6: wave_06
+-------------------------------------------------------
+Total enemigos: 14
+Tipos: bomber_enemy x4, fighter_enemy x6, drone_enemy x4
+Formaciones: line (2), v (1)
+Intervalo medio: 1.13 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 7: wave_07
+-------------------------------------------------------
+Total enemigos: 17
+Tipos: patrol_enemy x7, drone_enemy x5, fighter_enemy x5
+Formaciones: line (2), v (1)
+Intervalo medio: 0.83 segundos
+Intervalo mas rapido: 0.75 segundos
+
+OLEADA 8: wave_08
+-------------------------------------------------------
+Total enemigos: 16
+Tipos: bomber_enemy x4, sentinel_enemy x5, fighter_enemy x7
+Formaciones: line (3)
+Intervalo medio: 1.03 segundos
+Intervalo mas rapido: 0.80 segundos
+
+======================================================================
+MAPA: Cinturón de chatarra
+Archivo: sector_02.json
+ID: sector_02
+----------------------------------------------------------------------
+[INFORMACION GENERAL]
+Descripcion: Un antiguo campo de batalla convertido en un laberinto de restos metálicos.
+Dificultad configurada: 2
+Numero de oleadas: 8
+Jefe final: sector_02_boss
+
+[RESUMEN DE ENEMIGOS]
+Total de enemigos previstos: 135
+Media por oleada: 16.88
+Oleada con mas enemigos: 19
+Oleada con menos enemigos: 15
+
+[COMPOSICION GLOBAL]
+fighter_enemy: 37 apariciones previstas
+drone_enemy: 26 apariciones previstas
+patrol_enemy: 23 apariciones previstas
+sentinel_enemy: 21 apariciones previstas
+scout_enemy: 14 apariciones previstas
+bomber_enemy: 14 apariciones previstas
+
+[PROGRESION DE CANTIDAD]
+wave_01 -> wave_02: +2
+wave_02 -> wave_03: -1
+wave_03 -> wave_04: -1
+wave_04 -> wave_05: +3
+wave_05 -> wave_06: -1
+wave_06 -> wave_07: +2
+wave_07 -> wave_08: -1
+
+[RECOMPENSAS Y DESBLOQUEO]
+Monedas recompensa: 18
+Coste desbloqueo: 0
+Licencia necesaria: No definido
+
+[ASPECTO Y ESCENARIO]
+Fondo: industrial
+Musica: assets/audio/music/sector_02.mp3
+Velocidad scroll: 45
+
+[DETALLE DE OLEADAS]
+
+OLEADA 1: wave_01
+-------------------------------------------------------
+Total enemigos: 15
+Tipos: scout_enemy x6, patrol_enemy x5, drone_enemy x4
+Formaciones: random (2), columns (1)
+Intervalo medio: 1.00 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 2: wave_02
+-------------------------------------------------------
+Total enemigos: 17
+Tipos: fighter_enemy x6, drone_enemy x6, patrol_enemy x5
+Formaciones: columns (2), random (1)
+Intervalo medio: 0.93 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 3: wave_03
+-------------------------------------------------------
+Total enemigos: 16
+Tipos: sentinel_enemy x5, patrol_enemy x6, fighter_enemy x5
+Formaciones: random (2), columns (1)
+Intervalo medio: 1.00 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 4: wave_04
+-------------------------------------------------------
+Total enemigos: 15
+Tipos: bomber_enemy x4, fighter_enemy x6, drone_enemy x5
+Formaciones: columns (2), random (1)
+Intervalo medio: 1.10 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 5: wave_05
+-------------------------------------------------------
+Total enemigos: 18
+Tipos: scout_enemy x8, sentinel_enemy x5, drone_enemy x5
+Formaciones: random (2), columns (1)
+Intervalo medio: 0.85 segundos
+Intervalo mas rapido: 0.70 segundos
+
+OLEADA 6: wave_06
+-------------------------------------------------------
+Total enemigos: 17
+Tipos: bomber_enemy x5, fighter_enemy x7, sentinel_enemy x5
+Formaciones: columns (2), random (1)
+Intervalo medio: 1.03 segundos
+Intervalo mas rapido: 0.80 segundos
+
+OLEADA 7: wave_07
+-------------------------------------------------------
+Total enemigos: 19
+Tipos: patrol_enemy x7, drone_enemy x6, fighter_enemy x6
+Formaciones: random (2), columns (1)
+Intervalo medio: 0.82 segundos
+Intervalo mas rapido: 0.80 segundos
+
+OLEADA 8: wave_08
+-------------------------------------------------------
+Total enemigos: 18
+Tipos: bomber_enemy x5, sentinel_enemy x6, fighter_enemy x7
+Formaciones: columns (2), random (1)
+Intervalo medio: 0.97 segundos
+Intervalo mas rapido: 0.80 segundos
+
+======================================================================
+MAPA: Nebulosa Carmesí
+Archivo: sector_03.json
+ID: sector_03
+----------------------------------------------------------------------
+[INFORMACION GENERAL]
+Descripcion: Una región de turbulencias electromagnéticas dominada por escuadrones de combate.
+Dificultad configurada: 3
+Numero de oleadas: 9
+Jefe final: sector_03_boss
+
+[RESUMEN DE ENEMIGOS]
+Total de enemigos previstos: 173
+Media por oleada: 19.22
+Oleada con mas enemigos: 22
+Oleada con menos enemigos: 16
+
+[COMPOSICION GLOBAL]
+fighter_enemy: 57 apariciones previstas
+sentinel_enemy: 30 apariciones previstas
+drone_enemy: 27 apariciones previstas
+patrol_enemy: 26 apariciones previstas
+bomber_enemy: 25 apariciones previstas
+scout_enemy: 8 apariciones previstas
+
+[PROGRESION DE CANTIDAD]
+wave_01 -> wave_02: -2
+wave_02 -> wave_03: +2
+wave_03 -> wave_04: +0
+wave_04 -> wave_05: +2
+wave_05 -> wave_06: -1
+wave_06 -> wave_07: +2
+wave_07 -> wave_08: +0
+wave_08 -> wave_09: +1
+
+[RECOMPENSAS Y DESBLOQUEO]
+Monedas recompensa: 25
+Coste desbloqueo: 0
+Licencia necesaria: No definido
+
+[ASPECTO Y ESCENARIO]
+Fondo: digital
+Musica: assets/audio/music/sector_03.mp3
+Velocidad scroll: 55
+
+[DETALLE DE OLEADAS]
+
+OLEADA 1: wave_01
+-------------------------------------------------------
+Total enemigos: 18
+Tipos: fighter_enemy x6, drone_enemy x7, patrol_enemy x5
+Formaciones: diamond (2), circle (1)
+Intervalo medio: 0.92 segundos
+Intervalo mas rapido: 0.85 segundos
+
+OLEADA 2: wave_02
+-------------------------------------------------------
+Total enemigos: 16
+Tipos: sentinel_enemy x6, bomber_enemy x4, fighter_enemy x6
+Formaciones: circle (2), diamond (1)
+Intervalo medio: 1.07 segundos
+Intervalo mas rapido: 0.90 segundos
+
+OLEADA 3: wave_03
+-------------------------------------------------------
+Total enemigos: 18
+Tipos: patrol_enemy x7, fighter_enemy x6, drone_enemy x5
+Formaciones: diamond (2), circle (1)
+Intervalo medio: 0.90 segundos
+Intervalo mas rapido: 0.85 segundos
+
+OLEADA 4: wave_04
+-------------------------------------------------------
+Total enemigos: 18
+Tipos: bomber_enemy x5, sentinel_enemy x6, drone_enemy x7
+Formaciones: circle (2), diamond (1)
+Intervalo medio: 1.00 segundos
+Intervalo mas rapido: 0.80 segundos
+
+OLEADA 5: wave_05
+-------------------------------------------------------
+Total enemigos: 20
+Tipos: scout_enemy x8, fighter_enemy x7, sentinel_enemy x5
+Formaciones: diamond (2), circle (1)
+Intervalo medio: 0.83 segundos
+Intervalo mas rapido: 0.70 segundos
+
+OLEADA 6: wave_06
+-------------------------------------------------------
+Total enemigos: 19
+Tipos: bomber_enemy x5, fighter_enemy x8, patrol_enemy x6
+Formaciones: circle (2), diamond (1)
+Intervalo medio: 0.90 segundos
+Intervalo mas rapido: 0.75 segundos
+
+OLEADA 7: wave_07
+-------------------------------------------------------
+Total enemigos: 21
+Tipos: sentinel_enemy x6, drone_enemy x8, fighter_enemy x7
+Formaciones: diamond (2), circle (1)
+Intervalo medio: 0.82 segundos
+Intervalo mas rapido: 0.75 segundos
+
+OLEADA 8: wave_08
+-------------------------------------------------------
+Total enemigos: 21
+Tipos: bomber_enemy x5, patrol_enemy x8, fighter_enemy x8
+Formaciones: circle (2), diamond (1)
+Intervalo medio: 0.87 segundos
+Intervalo mas rapido: 0.75 segundos
+
+OLEADA 9: wave_09
+-------------------------------------------------------
+Total enemigos: 22
+Tipos: bomber_enemy x6, sentinel_enemy x7, fighter_enemy x9
+Formaciones: diamond (2), circle (1)
+Intervalo medio: 0.85 segundos
+Intervalo mas rapido: 0.70 segundos
+
+======================================================================
+MAPA: Frontera de Titán
+Archivo: sector_04.json
+ID: sector_04
+----------------------------------------------------------------------
+[INFORMACION GENERAL]
+Descripcion: Una zona militar fuertemente protegida. Sus defensas no permiten errores.
+Dificultad configurada: 4
+Numero de oleadas: 9
+Jefe final: sector_04_boss
+
+[RESUMEN DE ENEMIGOS]
+Total de enemigos previstos: 252
+Media por oleada: 28.00
+Oleada con mas enemigos: 34
+Oleada con menos enemigos: 24
+
+[COMPOSICION GLOBAL]
+fighter_enemy: 87 apariciones previstas
+drone_enemy: 50 apariciones previstas
+bomber_enemy: 44 apariciones previstas
+sentinel_enemy: 43 apariciones previstas
+patrol_enemy: 28 apariciones previstas
+
+[PROGRESION DE CANTIDAD]
+wave_01 -> wave_02: +0
+wave_02 -> wave_03: +3
+wave_03 -> wave_04: -1
+wave_04 -> wave_05: +1
+wave_05 -> wave_06: +1
+wave_06 -> wave_07: +4
+wave_07 -> wave_08: -2
+wave_08 -> wave_09: +4
+
+[RECOMPENSAS Y DESBLOQUEO]
+Monedas recompensa: 35
+Coste desbloqueo: 0
+Licencia necesaria: No definido
+
+[ASPECTO Y ESCENARIO]
+Fondo: tormenta_arena
+Musica: assets/audio/music/sector_04.mp3
+Velocidad scroll: 65
+
+[DETALLE DE OLEADAS]
+
+OLEADA 1: wave_01
+-------------------------------------------------------
+Total enemigos: 24
+Tipos: sentinel_enemy x8, fighter_enemy x9, drone_enemy x7
+Formaciones: line (2), v (1)
+Intervalo medio: 0.65 segundos
+Intervalo mas rapido: 0.55 segundos
+
+OLEADA 2: wave_02
+-------------------------------------------------------
+Total enemigos: 24
+Tipos: bomber_enemy x6, drone_enemy x10, fighter_enemy x8
+Formaciones: line (2), v (1)
+Intervalo medio: 0.67 segundos
+Intervalo mas rapido: 0.45 segundos
+
+OLEADA 3: wave_03
+-------------------------------------------------------
+Total enemigos: 27
+Tipos: fighter_enemy x11, sentinel_enemy x8, patrol_enemy x8
+Formaciones: line (2), v (1)
+Intervalo medio: 0.60 segundos
+Intervalo mas rapido: 0.50 segundos
+
+OLEADA 4: wave_04
+-------------------------------------------------------
+Total enemigos: 26
+Tipos: bomber_enemy x7, patrol_enemy x10, drone_enemy x9
+Formaciones: line (3)
+Intervalo medio: 0.63 segundos
+Intervalo mas rapido: 0.50 segundos
+
+OLEADA 5: wave_05
+-------------------------------------------------------
+Total enemigos: 27
+Tipos: fighter_enemy x12, sentinel_enemy x9, bomber_enemy x6
+Formaciones: line (3)
+Intervalo medio: 0.63 segundos
+Intervalo mas rapido: 0.45 segundos
+
+OLEADA 6: wave_06
+-------------------------------------------------------
+Total enemigos: 28
+Tipos: bomber_enemy x8, fighter_enemy x12, sentinel_enemy x8
+Formaciones: line (2), v (1)
+Intervalo medio: 0.60 segundos
+Intervalo mas rapido: 0.40 segundos
+
+OLEADA 7: wave_07
+-------------------------------------------------------
+Total enemigos: 32
+Tipos: drone_enemy x12, patrol_enemy x10, fighter_enemy x10
+Formaciones: line (2), v (1)
+Intervalo medio: 0.45 segundos
+Intervalo mas rapido: 0.40 segundos
+
+OLEADA 8: wave_08
+-------------------------------------------------------
+Total enemigos: 30
+Tipos: bomber_enemy x8, sentinel_enemy x10, fighter_enemy x12
+Formaciones: line (3)
+Intervalo medio: 0.57 segundos
+Intervalo mas rapido: 0.40 segundos
+
+OLEADA 9: wave_09
+-------------------------------------------------------
+Total enemigos: 34
+Tipos: bomber_enemy x9, drone_enemy x12, fighter_enemy x13
+Formaciones: line (3)
+Intervalo medio: 0.49 segundos
+Intervalo mas rapido: 0.38 segundos
+
+======================================================================
+MAPA: Núcleo de la Oscuridad
+Archivo: sector_05.json
+ID: sector_05
+----------------------------------------------------------------------
+[INFORMACION GENERAL]
+Descripcion: El último territorio conocido. Las fuerzas enemigas concentran aquí todo su poder.
+Dificultad configurada: 5
+Numero de oleadas: 10
+Jefe final: sector_05_boss
+
+[RESUMEN DE ENEMIGOS]
+Total de enemigos previstos: 231
+Media por oleada: 23.10
+Oleada con mas enemigos: 28
+Oleada con menos enemigos: 19
+
+[COMPOSICION GLOBAL]
+fighter_enemy: 88 apariciones previstas
+bomber_enemy: 52 apariciones previstas
+sentinel_enemy: 45 apariciones previstas
+drone_enemy: 39 apariciones previstas
+patrol_enemy: 7 apariciones previstas
+
+[PROGRESION DE CANTIDAD]
+wave_01 -> wave_02: +1
+wave_02 -> wave_03: +0
+wave_03 -> wave_04: +1
+wave_04 -> wave_05: +2
+wave_05 -> wave_06: +0
+wave_06 -> wave_07: +2
+wave_07 -> wave_08: +0
+wave_08 -> wave_09: +2
+wave_09 -> wave_10: +1
+
+[RECOMPENSAS Y DESBLOQUEO]
+Monedas recompensa: 50
+Coste desbloqueo: 0
+Licencia necesaria: No definido
+
+[ASPECTO Y ESCENARIO]
+Fondo: toxico
+Musica: assets/audio/music/sector_05.mp3
+Velocidad scroll: 75
+
+[DETALLE DE OLEADAS]
+
+OLEADA 1: wave_01
+-------------------------------------------------------
+Total enemigos: 19
+Tipos: fighter_enemy x7, sentinel_enemy x6, drone_enemy x6
+Formaciones: diagonal (2), cross (1)
+Intervalo medio: 0.85 segundos
+Intervalo mas rapido: 0.80 segundos
+
+OLEADA 2: wave_02
+-------------------------------------------------------
+Total enemigos: 20
+Tipos: bomber_enemy x5, drone_enemy x8, fighter_enemy x7
+Formaciones: cross (2), diagonal (1)
+Intervalo medio: 0.92 segundos
+Intervalo mas rapido: 0.75 segundos
+
+OLEADA 3: wave_03
+-------------------------------------------------------
+Total enemigos: 20
+Tipos: sentinel_enemy x7, fighter_enemy x8, bomber_enemy x5
+Formaciones: diagonal (2), cross (1)
+Intervalo medio: 0.90 segundos
+Intervalo mas rapido: 0.75 segundos
+
+OLEADA 4: wave_04
+-------------------------------------------------------
+Total enemigos: 21
+Tipos: bomber_enemy x6, fighter_enemy x8, drone_enemy x7
+Formaciones: cross (2), diagonal (1)
+Intervalo medio: 0.88 segundos
+Intervalo mas rapido: 0.75 segundos
+
+OLEADA 5: wave_05
+-------------------------------------------------------
+Total enemigos: 23
+Tipos: sentinel_enemy x8, fighter_enemy x9, bomber_enemy x6
+Formaciones: diagonal (2), cross (1)
+Intervalo medio: 0.83 segundos
+Intervalo mas rapido: 0.70 segundos
+
+OLEADA 6: wave_06
+-------------------------------------------------------
+Total enemigos: 23
+Tipos: bomber_enemy x7, fighter_enemy x9, sentinel_enemy x7
+Formaciones: cross (2), diagonal (1)
+Intervalo medio: 0.83 segundos
+Intervalo mas rapido: 0.70 segundos
+
+OLEADA 7: wave_07
+-------------------------------------------------------
+Total enemigos: 25
+Tipos: drone_enemy x9, fighter_enemy x9, patrol_enemy x7
+Formaciones: diagonal (2), cross (1)
+Intervalo medio: 0.73 segundos
+Intervalo mas rapido: 0.70 segundos
+
+OLEADA 8: wave_08
+-------------------------------------------------------
+Total enemigos: 25
+Tipos: bomber_enemy x7, sentinel_enemy x8, fighter_enemy x10
+Formaciones: cross (2), diagonal (1)
+Intervalo medio: 0.78 segundos
+Intervalo mas rapido: 0.65 segundos
+
+OLEADA 9: wave_09
+-------------------------------------------------------
+Total enemigos: 27
+Tipos: bomber_enemy x8, drone_enemy x9, fighter_enemy x10
+Formaciones: diagonal (2), cross (1)
+Intervalo medio: 0.75 segundos
+Intervalo mas rapido: 0.65 segundos
+
+OLEADA 10: wave_10
+-------------------------------------------------------
+Total enemigos: 28
+Tipos: bomber_enemy x8, sentinel_enemy x9, fighter_enemy x11
+Formaciones: cross (2), diagonal (1)
+Intervalo medio: 0.73 segundos
+Intervalo mas rapido: 0.60 segundos
+
+
+NOTAS DE BALANCE
+----------------------------------------------------------------------
+La cantidad de enemigos es la suma de los count de cada oleada.
+El intervalo medio es una media de los intervalos configurados.
+No representa necesariamente el tiempo real entre todos los enemigos.
+No se calcula la vida o el daño total sin consultar los JSON de enemigos.
+La dificultad real depende tambien de armas, movimiento y jefe final.

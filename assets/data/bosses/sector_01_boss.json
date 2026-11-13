@@ -3,7 +3,7 @@
   "id": "sector_01_boss",
   "name": "Destructor de la Frontera",
   "creatureType": "tentacles",
-  "health": 500,
+  "health": 300,
   "speed": 85,
   "contactDamage": 2,
   "score": 5000,
@@ -12,7 +12,7 @@
   "movementAmplitude": 75,
 
   "projectileDamage": 1,
-  "projectileSpeed": 190,
+  "projectileSpeed": 160,
   "attackInterval": 1.8,
   "projectileCount": 3,
   "spreadAngle": 12,

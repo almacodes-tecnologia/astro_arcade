@@ -1,0 +1,416 @@
+ASTRO ARCADE - INFORME DE ENEMIGOS
+Archivos JSON encontrados: 10
+Enemigos analizados: 10
+
+RESUMEN COMPARATIVO
+------------------------------------------------------------------------------------------
+NOMBRE                      VIDA    VEL.  CONTACTO    SCORE      DPS
+------------------------------------------------------------------------------------------
+Dron de reconocimiento         2      85         1      100     0.40
+Explorador ligero              3     105         1      150     0.31
+Acechador fantasma             3     120         1      180     0.45
+Patrullero                     4     100         1      200     6.00
+Caza de combate                5     115         1      250     3.00
+Guardián de plasma             7      90         2      280     2.61
+Interceptor estelar            6     130         1      300     3.33
+Centinela de combate           8      75         2      350     2.31
+Bombardero pesado             12      65         2      500     4.29
+Crucero de asalto             15      50         3      600     5.33
+
+DETALLE INDIVIDUAL
+
+=================================================================
+ENEMIGO: Bombardero pesado
+Archivo: bomber_enemy.json
+ID: bomber_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 12
+Velocidad: 65
+Daño por contacto: 2
+Puntuacion: 500
+Monedas recompensa: 4
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: stationary
+Posicion objetivo Y: 0.22
+Amplitud: 0
+Frecuencia: 0
+Velocidad patrulla: 0
+
+[ARMAMENTO]
+Tipo de arma: spread
+Danio por proyectil: 2
+Velocidad proyectil: 200
+Intervalo disparo: 2.8 segundos
+Numero de canones: 2
+Proyectiles por rafaga: 3
+DPS teorico maximo: 4.29
+Posicion canon: 0.78
+Separacion canones: 0.55
+
+[ASPECTO Y TAMANO]
+Forma: bomber
+Ancho: 88
+Alto: 68
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Crucero de asalto
+Archivo: cruiser_enemy.json
+ID: cruiser_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 15
+Velocidad: 50
+Daño por contacto: 3
+Puntuacion: 600
+Monedas recompensa: 5
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: sine
+Posicion objetivo Y: 0.2
+Amplitud: 50
+Frecuencia: 0.5
+Velocidad patrulla: 0
+
+[ARMAMENTO]
+Tipo de arma: spread
+Danio por proyectil: 2
+Velocidad proyectil: 210
+Intervalo disparo: 3.0 segundos
+Numero de canones: 2
+Proyectiles por rafaga: 4
+DPS teorico maximo: 5.33
+Posicion canon: 0.75
+Separacion canones: 0.6
+
+[ASPECTO Y TAMANO]
+Forma: bomber
+Ancho: 94
+Alto: 72
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Dron de reconocimiento
+Archivo: drone_enemy.json
+ID: drone_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 2
+Velocidad: 85
+Daño por contacto: 1
+Puntuacion: 100
+Monedas recompensa: 1
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: sine
+Posicion objetivo Y: 0.2
+Amplitud: 65
+Frecuencia: 0.8
+Velocidad patrulla: 0
+
+[ARMAMENTO]
+Tipo de arma: single
+Danio por proyectil: 1
+Velocidad proyectil: 220
+Intervalo disparo: 2.5 segundos
+Numero de canones: 1
+Proyectiles por rafaga: 1
+DPS teorico maximo: 0.40
+Posicion canon: 0.75
+Separacion canones: 0
+
+[ASPECTO Y TAMANO]
+Forma: drone
+Ancho: 42
+Alto: 38
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Caza de combate
+Archivo: fighter_enemy.json
+ID: fighter_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 5
+Velocidad: 115
+Daño por contacto: 1
+Puntuacion: 250
+Monedas recompensa: 2
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: patrol
+Posicion objetivo Y: 0.28
+Amplitud: 105
+Frecuencia: 0
+Velocidad patrulla: 125
+
+[ARMAMENTO]
+Tipo de arma: spread
+Danio por proyectil: 1
+Velocidad proyectil: 260
+Intervalo disparo: 2.0 segundos
+Numero de canones: 2
+Proyectiles por rafaga: 3
+DPS teorico maximo: 3.00
+Posicion canon: 0.72
+Separacion canones: 0.35
+
+[ASPECTO Y TAMANO]
+Forma: fighter
+Ancho: 58
+Alto: 50
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Interceptor estelar
+Archivo: interceptor_enemy.json
+ID: interceptor_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 6
+Velocidad: 130
+Daño por contacto: 1
+Puntuacion: 300
+Monedas recompensa: 3
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: patrol
+Posicion objetivo Y: 0.26
+Amplitud: 115
+Frecuencia: 0
+Velocidad patrulla: 140
+
+[ARMAMENTO]
+Tipo de arma: spread
+Danio por proyectil: 1
+Velocidad proyectil: 290
+Intervalo disparo: 1.8 segundos
+Numero de canones: 2
+Proyectiles por rafaga: 3
+DPS teorico maximo: 3.33
+Posicion canon: 0.7
+Separacion canones: 0.38
+
+[ASPECTO Y TAMANO]
+Forma: interceptor
+Ancho: 60
+Alto: 45
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Patrullero
+Archivo: patrol_enemy.json
+ID: patrol_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 4
+Velocidad: 100
+Daño por contacto: 1
+Puntuacion: 200
+Monedas recompensa: 2
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: patrol
+Posicion objetivo Y: 0.25
+Amplitud: 90
+Frecuencia: 0
+Velocidad patrulla: 100
+
+[ARMAMENTO]
+Tipo de arma: spread
+Danio por proyectil: 1
+Velocidad proyectil: 220
+Intervalo disparo: 1.0 segundos
+Numero de canones: 2
+Proyectiles por rafaga: 3
+DPS teorico maximo: 6.00
+Posicion canon: 0.52
+Separacion canones: 0.25
+
+[ASPECTO Y TAMANO]
+Forma: interceptor
+Ancho: 64
+Alto: 48
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Guardián de plasma
+Archivo: plasma_guardian_enemy.json
+ID: plasma_guardian_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 7
+Velocidad: 90
+Daño por contacto: 2
+Puntuacion: 280
+Monedas recompensa: 2
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: patrol
+Posicion objetivo Y: 0.22
+Amplitud: 95
+Frecuencia: 0
+Velocidad patrulla: 95
+
+[ARMAMENTO]
+Tipo de arma: spread
+Danio por proyectil: 1
+Velocidad proyectil: 235
+Intervalo disparo: 2.3 segundos
+Numero de canones: 2
+Proyectiles por rafaga: 3
+DPS teorico maximo: 2.61
+Posicion canon: 0.73
+Separacion canones: 0.36
+
+[ASPECTO Y TAMANO]
+Forma: fighter
+Ancho: 62
+Alto: 52
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Explorador ligero
+Archivo: scout_enemy.json
+ID: scout_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 3
+Velocidad: 105
+Daño por contacto: 1
+Puntuacion: 150
+Monedas recompensa: 1
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: sine
+Posicion objetivo Y: 0.22
+Amplitud: 45
+Frecuencia: 1.2
+Velocidad patrulla: 0
+
+[ARMAMENTO]
+Tipo de arma: single
+Danio por proyectil: 1
+Velocidad proyectil: 230
+Intervalo disparo: 3.2 segundos
+Numero de canones: 1
+Proyectiles por rafaga: 1
+DPS teorico maximo: 0.31
+Posicion canon: 0.76
+Separacion canones: 0
+
+[ASPECTO Y TAMANO]
+Forma: fighter
+Ancho: 46
+Alto: 38
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Centinela de combate
+Archivo: sentinel_enemy.json
+ID: sentinel_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 8
+Velocidad: 75
+Daño por contacto: 2
+Puntuacion: 350
+Monedas recompensa: 3
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: patrol
+Posicion objetivo Y: 0.25
+Amplitud: 85
+Frecuencia: 0
+Velocidad patrulla: 85
+
+[ARMAMENTO]
+Tipo de arma: spread
+Danio por proyectil: 1
+Velocidad proyectil: 245
+Intervalo disparo: 2.6 segundos
+Numero de canones: 2
+Proyectiles por rafaga: 3
+DPS teorico maximo: 2.31
+Posicion canon: 0.74
+Separacion canones: 0.4
+
+[ASPECTO Y TAMANO]
+Forma: interceptor
+Ancho: 70
+Alto: 58
+
+[HABILIDADES]
+Ninguna
+
+=================================================================
+ENEMIGO: Acechador fantasma
+Archivo: stalker_enemy.json
+ID: stalker_enemy
+-----------------------------------------------------------------
+[ESTADISTICAS]
+Vida: 3
+Velocidad: 120
+Daño por contacto: 1
+Puntuacion: 180
+Monedas recompensa: 1
+
+[MOVIMIENTO]
+Comportamiento: hold_position
+Patron: sine
+Posicion objetivo Y: 0.24
+Amplitud: 75
+Frecuencia: 1.5
+Velocidad patrulla: 0
+
+[ARMAMENTO]
+Tipo de arma: single
+Danio por proyectil: 1
+Velocidad proyectil: 250
+Intervalo disparo: 2.2 segundos
+Numero de canones: 1
+Proyectiles por rafaga: 1
+DPS teorico maximo: 0.45
+Posicion canon: 0.74
+Separacion canones: 0
+
+[ASPECTO Y TAMANO]
+Forma: drone
+Ancho: 45
+Alto: 40
+
+[HABILIDADES]
+Ninguna
+
+
+NOTAS
+-----------------------------------------------------------------
+El DPS es una estimacion teorica: no contempla fallos, trayectoria, tiempo de rafaga ni impactos reales.
+La dificultad real tambien depende del movimiento, la formacion y la cantidad de enemigos simultaneos.

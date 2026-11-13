@@ -1,0 +1,369 @@
+ASTRO ARCADE - INFORME DE NAVES
+Archivos JSON encontrados: 10
+Naves analizadas: 10
+
+RESUMEN COMPARATIVO
+----------------------------------------------------------------------------------------------------
+NAVE                    VELOCIDAD    VIDA   INTERVALO    DANO      DPS   MONEDAS   LICENCIA
+----------------------------------------------------------------------------------------------------
+Abyss                         360       3        0.15       1     6.67      1400          C
+Bastion                       220       7        0.32       2     6.25         0          A
+Crimson Fang                  330       4        0.17       2    11.76      1200          B
+Phantom                       380       2        0.18       1     5.56         2          B
+Raptor                        340       5        0.16       2    12.50      1800          D
+Scout                         300       3        0.24       1     4.17         0       None
+Solaris                       240       6        0.28       2     7.14       950          B
+Striker                       300      30        0.24       3    12.50         0       None
+Valkyrie                      310       5         0.2       2    10.00       650          A
+Vanguard                      280       4        0.22       1     4.55         1          A
+
+DETALLE INDIVIDUAL
+
+=================================================================
+NAVE: Abyss
+Archivo: abyss.json
+ID: abyss
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 360
+Vida: 3
+Intervalo de disparo: 0.15 segundos
+Daño por impacto: 1
+DPS teorico: 6.67
+Daño teorico en 10 segundos: 66.67
+Resistencia base (vida): 3
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 590
+Ancho proyectil: 5
+Alto proyectil: 16
+
+[DESBLOQUEO]
+Coste monedas: 1400
+Licencia: C
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: interceptor
+Escala: 0.98
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Nave de incursión profunda adaptada para operar en condiciones de baja visibilidad. Destaca por su alta cadencia de disparo y agilidad en combate cerrado.
+
+=================================================================
+NAVE: Bastion
+Archivo: bastion.json
+ID: bastion
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 220
+Vida: 7
+Intervalo de disparo: 0.32 segundos
+Daño por impacto: 2
+DPS teorico: 6.25
+Daño teorico en 10 segundos: 62.50
+Resistencia base (vida): 7
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 490
+Ancho proyectil: 8
+Alto proyectil: 18
+
+[DESBLOQUEO]
+Coste monedas: 0
+Licencia: A
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: heavy
+Escala: 1.08
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Cañonera pesada con blindaje reforzado y cuatro propulsores. Diseñada para resistir enfrentamientos prolongados.
+
+=================================================================
+NAVE: Crimson Fang
+Archivo: crimson_fang.json
+ID: crimson_fang
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 330
+Vida: 4
+Intervalo de disparo: 0.17 segundos
+Daño por impacto: 2
+DPS teorico: 11.76
+Daño teorico en 10 segundos: 117.65
+Resistencia base (vida): 4
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 580
+Ancho proyectil: 6
+Alto proyectil: 17
+
+[DESBLOQUEO]
+Coste monedas: 1200
+Licencia: B
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: fighter
+Escala: 1.0
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Interceptador agresivo equipado con doble cañón frontal y propulsores de alta combustión. Diseñado para emboscadas relámpago.
+
+=================================================================
+NAVE: Phantom
+Archivo: phantom.json
+ID: phantom
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 380
+Vida: 2
+Intervalo de disparo: 0.18 segundos
+Daño por impacto: 1
+DPS teorico: 5.56
+Daño teorico en 10 segundos: 55.56
+Resistencia base (vida): 2
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 620
+Ancho proyectil: 4
+Alto proyectil: 19
+
+[DESBLOQUEO]
+Coste monedas: 2
+Licencia: B
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: interceptor
+Escala: 0.95
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Interceptor experimental de alta velocidad. Su estructura estilizada sacrifica blindaje para conseguir una maniobrabilidad excepcional.
+
+=================================================================
+NAVE: Raptor
+Archivo: raptor.json
+ID: raptor
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 340
+Vida: 5
+Intervalo de disparo: 0.16 segundos
+Daño por impacto: 2
+DPS teorico: 12.50
+Daño teorico en 10 segundos: 125.00
+Resistencia base (vida): 5
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 600
+Ancho proyectil: 7
+Alto proyectil: 20
+
+[DESBLOQUEO]
+Coste monedas: 1800
+Licencia: D
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: fighter
+Escala: 1.04
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Caza de superioridad espacial reservado a pilotos experimentados. Combina una estructura aerodinámica con una potencia de fuego contundente.
+
+=================================================================
+NAVE: Scout
+Archivo: scout.json
+ID: scout
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 300
+Vida: 3
+Intervalo de disparo: 0.24 segundos
+Daño por impacto: 1
+DPS teorico: 4.17
+Daño teorico en 10 segundos: 41.67
+Resistencia base (vida): 3
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 540
+Ancho proyectil: 5
+Alto proyectil: 15
+
+[DESBLOQUEO]
+Coste monedas: 0
+Licencia: No definido
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: interceptor
+Escala: 1.0
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Nave ligera de reconocimiento. Rápida, maniobrable y equipada con dos motores de alto rendimiento.
+
+=================================================================
+NAVE: Solaris
+Archivo: solaris.json
+ID: solaris
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 240
+Vida: 6
+Intervalo de disparo: 0.28 segundos
+Daño por impacto: 2
+DPS teorico: 7.14
+Daño teorico en 10 segundos: 71.43
+Resistencia base (vida): 6
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 520
+Ancho proyectil: 8
+Alto proyectil: 19
+
+[DESBLOQUEO]
+Coste monedas: 950
+Licencia: B
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: heavy
+Escala: 1.05
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Caza de asalto impulsado por energía solar condensada. Ofrece una potencia de fuego devastadora a costa de una movilidad algo más rígida.
+
+=================================================================
+NAVE: Striker
+Archivo: striker.json
+ID: striker
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 300
+Vida: 30
+Intervalo de disparo: 0.24 segundos
+Daño por impacto: 3
+DPS teorico: 12.50
+Daño teorico en 10 segundos: 125.00
+Resistencia base (vida): 30
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 540
+Ancho proyectil: 5
+Alto proyectil: 15
+
+[DESBLOQUEO]
+Coste monedas: 0
+Licencia: No definido
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: interceptor
+Escala: 1.0
+Ancho: 84
+Alto: 78
+
+[DESCRIPCION]
+Caza pesado de superioridad espacial. Amplias alas de combate, blindaje reforzado y tres motores de propulsión.
+
+=================================================================
+NAVE: Valkyrie
+Archivo: valkyrie.json
+ID: valkyrie
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 310
+Vida: 5
+Intervalo de disparo: 0.2 segundos
+Daño por impacto: 2
+DPS teorico: 10.00
+Daño teorico en 10 segundos: 100.00
+Resistencia base (vida): 5
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 570
+Ancho proyectil: 6
+Alto proyectil: 18
+
+[DESBLOQUEO]
+Coste monedas: 650
+Licencia: A
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: fighter
+Escala: 1.02
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Caza de escolta de la flota estelar. Su chasis aerodinámico optimiza el flujo de energía permitiendo un control sobresaliente en cualquier situación.
+
+=================================================================
+NAVE: Vanguard
+Archivo: vanguard.json
+ID: vanguard
+-----------------------------------------------------------------
+[ESTADISTICAS PRINCIPALES]
+Velocidad: 280
+Vida: 4
+Intervalo de disparo: 0.22 segundos
+Daño por impacto: 1
+DPS teorico: 4.55
+Daño teorico en 10 segundos: 45.45
+Resistencia base (vida): 4
+
+[ARMAMENTO]
+Tipo: single
+Velocidad proyectil: 560
+Ancho proyectil: 6
+Alto proyectil: 17
+
+[DESBLOQUEO]
+Coste monedas: 1
+Licencia: A
+
+[DIMENSIONES VISUALES]
+Tipo: geometric
+Forma: fighter
+Escala: 1.0
+Ancho: 64
+Alto: 76
+
+[DESCRIPCION]
+Caza táctico de nueva generación. Equilibrio entre velocidad, potencia y resistencia.
+
+
+NOTAS DE BALANCE
+-----------------------------------------------------------------
+El DPS se calcula como daño / intervalo de disparo.
+No contempla proyectiles fallidos, alcance ni patrones.
+La velocidad y vida se muestran como valores configurados.
+El tamaño visual no equivale necesariamente al area real de colision.
+El equilibrio final depende tambien de los proyectiles y enemigos.

@@ -14,64 +14,56 @@
     {
       "id": "wave_01",
       "enemies": [
-        { "type": "scout_enemy", "count": 8, "formation": "line", "interval": 0.8 },
-        { "type": "patrol_enemy", "count": 4, "formation": "v", "interval": 1.1 }
+        { "type": "scout_enemy", "count": 6, "formation": "line", "interval": 1.4 }
       ]
     },
     {
       "id": "wave_02",
       "enemies": [
-        { "type": "scout_enemy", "count": 8, "formation": "line", "interval": 0.8 },
-        { "type": "patrol_enemy", "count": 4, "formation": "line", "interval": 1.0 },
-        { "type": "drone_enemy", "count": 3, "formation": "v", "interval": 1.2 }
+        { "type": "scout_enemy", "count": 5, "formation": "line", "interval": 1.3 },
+        { "type": "drone_enemy", "count": 3, "formation": "v", "interval": 1.5 }
       ]
     },
     {
       "id": "wave_03",
       "enemies": [
-        { "type": "drone_enemy", "count": 6, "formation": "line", "interval": 0.9 },
-        { "type": "sentinel_enemy", "count": 4, "formation": "line", "interval": 1.3 },
-        { "type": "scout_enemy", "count": 5, "formation": "v", "interval": 0.9 }
+        { "type": "drone_enemy", "count": 5, "formation": "line", "interval": 1.4 },
+        { "type": "scout_enemy", "count": 5, "formation": "v", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_04",
       "enemies": [
-        { "type": "fighter_enemy", "count": 6, "formation": "line", "interval": 0.9 },
-        { "type": "patrol_enemy", "count": 5, "formation": "line", "interval": 1.0 },
-        { "type": "sentinel_enemy", "count": 3, "formation": "v", "interval": 1.3 }
+        { "type": "stalker_enemy", "count": 5, "formation": "line", "interval": 1.4 },
+        { "type": "scout_enemy", "count": 5, "formation": "v", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_05",
       "enemies": [
-        { "type": "scout_enemy", "count": 9, "formation": "line", "interval": 0.65 },
-        { "type": "fighter_enemy", "count": 5, "formation": "v", "interval": 0.9 },
-        { "type": "sentinel_enemy", "count": 4, "formation": "line", "interval": 1.0 }
+        { "type": "drone_enemy", "count": 5, "formation": "line", "interval": 1.2 },
+        { "type": "stalker_enemy", "count": 5, "formation": "v", "interval": 1.3 }
       ]
     },
     {
       "id": "wave_06",
       "enemies": [
-        { "type": "bomber_enemy", "count": 4, "formation": "line", "interval": 1.5 },
-        { "type": "fighter_enemy", "count": 6, "formation": "line", "interval": 0.9 },
-        { "type": "drone_enemy", "count": 4, "formation": "v", "interval": 1.0 }
+        { "type": "scout_enemy", "count": 6, "formation": "line", "interval": 1.1 },
+        { "type": "drone_enemy", "count": 5, "formation": "v", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_07",
       "enemies": [
-        { "type": "patrol_enemy", "count": 7, "formation": "line", "interval": 0.75 },
-        { "type": "drone_enemy", "count": 5, "formation": "line", "interval": 0.85 },
-        { "type": "fighter_enemy", "count": 5, "formation": "v", "interval": 0.9 }
+        { "type": "stalker_enemy", "count": 6, "formation": "line", "interval": 1.2 },
+        { "type": "drone_enemy", "count": 5, "formation": "v", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_08",
       "enemies": [
-        { "type": "bomber_enemy", "count": 4, "formation": "line", "interval": 1.3 },
-        { "type": "sentinel_enemy", "count": 5, "formation": "line", "interval": 1.0 },
-        { "type": "fighter_enemy", "count": 7, "formation": "line", "interval": 0.8 }
+        { "type": "scout_enemy", "count": 6, "formation": "line", "interval": 1.1 },
+        { "type": "stalker_enemy", "count": 6, "formation": "v", "interval": 1.2 }
       ]
     }
   ],
