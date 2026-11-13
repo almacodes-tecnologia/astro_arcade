@@ -1,7 +1,7 @@
 {
   "id": "sector_02_boss",
   "name": "Coloso Acorazado",
-  "health": 750,
+  "health": 400,
   "speed": 65,
   "contactDamage": 3,
   "score": 7000,

@@ -1,49 +1,46 @@
-
 {
-  "id": "scout_enemy",
-  "name": "Explorador ligero",
+  "id": "acechador-s-1",
+  "name": "Acechador S-1",
   "health": 3,
-  "speed": 105,
+  "speed": 120,
   "contactDamage": 1,
-  "score": 150,
+  "score": 180,
   "rewardCoins": 1,
   "movement": {
     "behavior": "hold_position",
     "pattern": "sine",
-    "targetY": 0.22,
-    "amplitude": 45,
-    "frequency": 1.2,
+    "targetY": 0.24,
+    "amplitude": 75,
+    "frequency": 1.5,
     "patrolSpeed": 0
   },
   "weapon": {
     "type": "single",
     "damage": 1,
-    "projectileSpeed": 230,
-    "fireInterval": 3.2,
+    "projectileSpeed": 250,
+    "fireInterval": 2.2,
     "burstCount": 1,
     "cannonCount": 1,
-    "cannonPosition": 0.76,
+    "cannonPosition": 0.74,
     "cannonSeparation": 0,
-    "cannonSize": 0.09
+    "cannonSize": 0.10
   },
   "visual": {
-    "shape": "fighter",
+    "shape": "drone",
     "dimensions": {
-      "width": 46,
-      "height": 38
+      "width": 45,
+      "height": 40
     },
     "colors": {
-      "primary": "#397B9E",
-      "secondary": "#65B9D9",
-      "accent": "#A5F3FF",
-      "cockpit": "#8CF0FF",
-      "engine": "#55E6FF",
-      "outline": "#193D56"
+      "primary": "#1B3B48",
+      "secondary": "#336D85",
+      "accent": "#FF2A85",
+      "cockpit": "#00F0FF",
+      "engine": "#FF007F",
+      "outline": "#0A171D"
     },
     "wings": {
-      "enabled": true,
-      "style": "swept",
-      "span": 1.15
+      "enabled": false
     },
     "cockpit": {
       "enabled": true
@@ -53,7 +50,7 @@
       "count": 1
     },
     "fins": {
-      "enabled": true
+      "enabled": false
     },
     "details": {
       "enabled": true,

@@ -1,8 +1,8 @@
 {
-  "id": "cruiser_enemy",
-  "name": "Crucero de asalto",
-  "health": 15,
-  "speed": 50,
+  "id": "crucero-goliat-I",
+  "name": "Crucero Goliat-I",
+  "health": 10,
+  "speed": 45,
   "contactDamage": 3,
   "score": 600,
   "rewardCoins": 5,

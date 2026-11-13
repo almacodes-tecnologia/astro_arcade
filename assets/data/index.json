@@ -20,15 +20,15 @@
   ],
   "enemies": [
     "mosca_z1",
-    "patrol_enemy",
-    "drone_enemy",
-    "sentinel_enemy",
-    "fighter_enemy",
-    "bomber_enemy",
-    "interceptor_enemy",
-    "cruiser_enemy",
-    "stalker_enemy",
-    "plasma_guardian_enemy"
+    "explorador-l-1",
+    "caza-furia-i",
+    "bombardero-pesado-t-1",
+    "centinela-alpha-i",
+    "acechador-s-1",
+    "guardian-ferreo-i",
+    "dark_saeta_i",
+    "crucero-goliat-I",
+    "patrullero-k-1"
   ],
   "bosses": [
     "sector_01_boss",

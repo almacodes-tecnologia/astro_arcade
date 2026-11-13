@@ -1,49 +1,52 @@
 
 {
-  "id": "sentinel_enemy",
-  "name": "Centinela de combate",
-  "health": 8,
-  "speed": 75,
-  "contactDamage": 2,
-  "score": 350,
-  "rewardCoins": 3,
+  "id": "patrullero-k-1",
+  "name": "Patrullero K-1",
+  "health": 4,
+  "speed": 100,
+  "contactDamage": 1,
+  "score": 200,
+  "rewardCoins": 2,
+
   "movement": {
     "behavior": "hold_position",
     "pattern": "patrol",
     "targetY": 0.25,
-    "amplitude": 85,
+    "amplitude": 90,
     "frequency": 0,
-    "patrolSpeed": 85
+    "patrolSpeed": 100
   },
-  "weapon": {
+
+    "weapon": {
     "type": "spread",
     "damage": 1,
-    "projectileSpeed": 245,
-    "fireInterval": 2.6,
+    "projectileSpeed": 220,
+    "fireInterval": 1.5,
     "burstCount": 3,
     "cannonCount": 2,
-    "cannonPosition": 0.74,
-    "cannonSeparation": 0.4,
-    "cannonSize": 0.11
+    "cannonPosition": 0.52,
+    "cannonSeparation": 0.25,
+    "cannonSize": 0.20
   },
+
   "visual": {
     "shape": "interceptor",
     "dimensions": {
-      "width": 70,
-      "height": 58
+      "width": 64,
+      "height": 48
     },
     "colors": {
-      "primary": "#59617F",
-      "secondary": "#929FC7",
-      "accent": "#D8C8FF",
-      "cockpit": "#9CDBFF",
-      "engine": "#B47AFF",
-      "outline": "#292B48"
+      "primary": "#A52F45",
+      "secondary": "#F05B68",
+      "accent": "#FFD166",
+      "cockpit": "#72E4FF",
+      "engine": "#FF792E",
+      "outline": "#501B30"
     },
     "wings": {
       "enabled": true,
-      "style": "heavy",
-      "span": 1.4
+      "style": "wide",
+      "span": 1.3
     },
     "cockpit": {
       "enabled": true
@@ -60,5 +63,6 @@
       "armorSegments": true
     }
   },
+
   "abilities": []
 }

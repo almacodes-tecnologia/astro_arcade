@@ -1,46 +1,49 @@
+
 {
-  "id": "stalker_enemy",
-  "name": "Acechador fantasma",
-  "health": 3,
-  "speed": 120,
+  "id": "explorador-l-1",
+  "name": "Explorador L-1",
+  "health": 2,
+  "speed": 125,
   "contactDamage": 1,
-  "score": 180,
+  "score": 100,
   "rewardCoins": 1,
   "movement": {
     "behavior": "hold_position",
     "pattern": "sine",
-    "targetY": 0.24,
-    "amplitude": 75,
-    "frequency": 1.5,
+    "targetY": 0.22,
+    "amplitude": 45,
+    "frequency": 1.2,
     "patrolSpeed": 0
   },
   "weapon": {
     "type": "single",
     "damage": 1,
-    "projectileSpeed": 250,
-    "fireInterval": 2.2,
+    "projectileSpeed": 230,
+    "fireInterval": 3.2,
     "burstCount": 1,
     "cannonCount": 1,
-    "cannonPosition": 0.74,
+    "cannonPosition": 0.76,
     "cannonSeparation": 0,
-    "cannonSize": 0.10
+    "cannonSize": 0.09
   },
   "visual": {
-    "shape": "drone",
+    "shape": "fighter",
     "dimensions": {
-      "width": 45,
-      "height": 40
+      "width": 46,
+      "height": 38
     },
     "colors": {
-      "primary": "#1B3B48",
-      "secondary": "#336D85",
-      "accent": "#FF2A85",
-      "cockpit": "#00F0FF",
-      "engine": "#FF007F",
-      "outline": "#0A171D"
+      "primary": "#397B9E",
+      "secondary": "#65B9D9",
+      "accent": "#A5F3FF",
+      "cockpit": "#8CF0FF",
+      "engine": "#55E6FF",
+      "outline": "#193D56"
     },
     "wings": {
-      "enabled": false
+      "enabled": true,
+      "style": "swept",
+      "span": 1.15
     },
     "cockpit": {
       "enabled": true
@@ -50,7 +53,7 @@
       "count": 1
     },
     "fins": {
-      "enabled": false
+      "enabled": true
     },
     "details": {
       "enabled": true,

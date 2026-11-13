@@ -1,7 +1,7 @@
 {
   "id": "sector_04_boss",
   "name": "Devorador Espinado",
-  "health": 1200,
+  "health": 200,
   "speed": 75,
   "contactDamage": 4,
   "score": 12000,
@@ -9,9 +9,9 @@
   "movementPattern": "patrol",
   "movementAmplitude": 125,
 
-  "projectileDamage": 2,
+  "projectileDamage": 4,
   "projectileSpeed": 245,
-  "attackInterval": 1.4,
+  "attackInterval": 1.1,
   "projectileCount": 5,
   "spreadAngle": 22,
 

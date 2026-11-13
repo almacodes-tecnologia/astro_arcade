@@ -1,8 +1,8 @@
 
 {
-  "id": "bomber_enemy",
-  "name": "Bombardero pesado",
-  "health": 12,
+  "id": "bombardero-pesado-t-1",
+  "name": "Bombardero Pesado T-1",
+  "health": 10,
   "speed": 65,
   "contactDamage": 2,
   "score": 500,
@@ -17,7 +17,7 @@
   },
   "weapon": {
     "type": "spread",
-    "damage": 2,
+    "damage": 1,
     "projectileSpeed": 200,
     "fireInterval": 2.8,
     "burstCount": 3,
