@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 750,
+    "coins": 100,
     "license": "C"
   }
 }

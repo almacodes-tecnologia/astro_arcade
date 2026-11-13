@@ -1,13 +1,13 @@
 {
   "id": "helios-ix",
   "name": "Helios-IX",
-  "description": "Caza de asalto impulsado por energía solar condensada. Ofrece una potencia de fuego devastadora a costa de una movilidad algo más rígida.",
+  "description": "Caza de asalto impulsado por energía solar condensada. Ofrece una buena potencia de fuego a costa de una movilidad algo más rígida.",
 
   "stats": {
     "speed": 240,
-    "health": 6,
+    "health": 5,
     "fireRate": 0.28,
-    "damage": 2
+    "damage": 3
   },
 
   "weapon": {
