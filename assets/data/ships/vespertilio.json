@@ -1,6 +1,6 @@
 {
-  "id": "crimson_fang",
-  "name": "Crimson Fang",
+  "id": "vespertilio",
+  "name": "Vespertilio",
   "description": "Interceptador agresivo equipado con doble cañón frontal y propulsores de alta combustión. Diseñado para emboscadas relámpago.",
 
   "stats": {
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 1200,
-    "license": "B"
+    "coins": 1500,
+    "license": "E"
   }
 }

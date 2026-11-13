@@ -1,11 +1,11 @@
 {
-  "id": "bastion",
-  "name": "Bastion",
+  "id": "yunke-xxi",
+  "name": "Yunke XXI",
   "description": "Cañonera pesada con blindaje reforzado y cuatro propulsores. Diseñada para resistir enfrentamientos prolongados.",
 
   "stats": {
     "speed": 220,
-    "health": 7,
+    "health": 8,
     "fireRate": 0.32,
     "damage": 2
   },
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 0,
+    "coins": 120,
     "license": "A"
   }
 }

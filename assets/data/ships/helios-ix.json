@@ -1,6 +1,6 @@
 {
-  "id": "solaris",
-  "name": "Solaris",
+  "id": "helios-ix",
+  "name": "Helios-IX",
   "description": "Caza de asalto impulsado por energía solar condensada. Ofrece una potencia de fuego devastadora a costa de una movilidad algo más rígida.",
 
   "stats": {
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 950,
+    "coins": 300,
     "license": "B"
   }
 }

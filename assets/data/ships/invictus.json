@@ -1,6 +1,6 @@
 {
-  "id": "vanguard",
-  "name": "Vanguard",
+  "id": "invictus",
+  "name": "Invictus",
   "description": "Caza táctico de nueva generación. Equilibrio entre velocidad, potencia y resistencia.",
 
   "stats": {
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 1,
-    "license": "A"
+    "coins": 10,
+    "license": null
   }
 }

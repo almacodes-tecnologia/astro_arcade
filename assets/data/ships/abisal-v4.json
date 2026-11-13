@@ -1,6 +1,6 @@
 {
-  "id": "abyss",
-  "name": "Abyss",
+  "id": "abisal-v4",
+  "name": "Abisal V-4",
   "description": "Nave de incursión profunda adaptada para operar en condiciones de baja visibilidad. Destaca por su alta cadencia de disparo y agilidad en combate cerrado.",
 
   "stats": {
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 1400,
+    "coins": 750,
     "license": "C"
   }
 }

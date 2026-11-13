@@ -1,14 +1,15 @@
 {
   "ships": [
-    "scout",
-    "phantom",
-    "raptor",
-    "striker",
-    "vanguard",
-    "solaris",
-    "abyss",
-    "valkyrie",
-    "crimson_fang"
+    "sr-04-lince",
+    "yunke-xxi",
+    "aethelgard",
+    "goliath-mk-ii",
+    "invictus",
+    "helios-ix",
+    "abisal-v4",
+    "valky-r",
+    "vespertilio",
+	"nyx"
   ],
   "maps": [
     "sector_01",
@@ -18,7 +19,7 @@
     "sector_05"
   ],
   "enemies": [
-    "scout_enemy",
+    "mosca_z1",
     "patrol_enemy",
     "drone_enemy",
     "sentinel_enemy",

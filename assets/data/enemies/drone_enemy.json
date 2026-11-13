@@ -1,9 +1,9 @@
 
 {
-  "id": "drone_enemy",
-  "name": "Dron de reconocimiento",
-  "health": 2,
-  "speed": 85,
+  "id": "mosca_z1",
+  "name": "Mosca Z-1",
+  "health": 1,
+  "speed": 100,
   "contactDamage": 1,
   "score": 100,
   "rewardCoins": 1,
@@ -19,7 +19,7 @@
     "type": "single",
     "damage": 1,
     "projectileSpeed": 220,
-    "fireInterval": 2.5,
+    "fireInterval": 3.1,
     "burstCount": 1,
     "cannonCount": 1,
     "cannonPosition": 0.75,

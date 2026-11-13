@@ -1,6 +1,6 @@
 {
-  "id": "raptor",
-  "name": "Raptor",
+  "id": "aethelgard",
+  "name": "Aethelgard",
   "description": "Caza de superioridad espacial reservado a pilotos experimentados. Combina una estructura aerodinámica con una potencia de fuego contundente.",
 
   "stats": {
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 1800,
-    "license": "D"
+    "coins": 1500,
+    "license": "E"
   }
 }

@@ -1,7 +1,7 @@
 
 {
-  "id": "striker",
-  "name": "Striker",
+  "id":"goliath-mk-ii",
+  "name": "Goliath MK-II",
   "description": "Caza pesado de superioridad espacial. Amplias alas de combate, blindaje reforzado y tres motores de propulsión.",
 
   "stats": {

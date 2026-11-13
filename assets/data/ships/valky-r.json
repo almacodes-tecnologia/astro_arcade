@@ -1,11 +1,11 @@
 {
-  "id": "valkyrie",
-  "name": "Valkyrie",
+  "id": "valky-r",
+  "name": "Valky-R",
   "description": "Caza de escolta de la flota estelar. Su chasis aerodinámico optimiza el flujo de energía permitiendo un control sobresaliente en cualquier situación.",
 
   "stats": {
     "speed": 310,
-    "health": 5,
+    "health": 6,
     "fireRate": 0.20,
     "damage": 2
   },
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 650,
-    "license": "A"
+    "coins": 600,
+    "license": "D"
   }
 }

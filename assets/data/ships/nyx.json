@@ -1,13 +1,13 @@
 {
-  "id": "phantom",
-  "name": "Phantom",
+  "id": "nyx",
+  "name": "Nyx",
   "description": "Interceptor experimental de alta velocidad. Su estructura estilizada sacrifica blindaje para conseguir una maniobrabilidad excepcional.",
 
   "stats": {
     "speed": 380,
     "health": 2,
     "fireRate": 0.18,
-    "damage": 1
+    "damage": 2
   },
 
   "weapon": {
@@ -88,7 +88,7 @@
     }
   },
   "unlock": {
-    "coins": 2,
+    "coins": 250,
     "license": "B"
   }
 }

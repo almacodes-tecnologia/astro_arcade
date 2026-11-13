@@ -1,12 +1,12 @@
 {
-  "id": "scout",
-  "name": "Scout",
+  "id": "sr-04-lince",
+  "name": "SR-04 Lince",
   "description": "Nave ligera de reconocimiento. Rápida, maniobrable y equipada con dos motores de alto rendimiento.",
 
   "stats": {
-    "speed": 300,
+    "speed": 350,
     "health": 3,
-    "fireRate": 0.24,
+    "fireRate": 0.20,
     "damage": 1
   },
 
@@ -23,8 +23,8 @@
     "scale": 1.0,
 
     "dimensions": {
-      "width": 64,
-      "height": 76
+      "width": 62,
+      "height": 74
     },
 
     "colors": {
@@ -96,7 +96,7 @@
     }
   },
   "unlock": {
-    "coins": 0,
-    "license": null
+    "coins": 60,
+    "license": "A"
   }
 }
