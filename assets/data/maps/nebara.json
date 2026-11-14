@@ -72,7 +72,7 @@
   "reward": {
     "coins": 10
   },
-  "bossId": "sector_01_boss",
+  "bossId": "nebara_boss",
   "unlock": {
     "coins": 0,
     "license": null
