@@ -4,7 +4,7 @@
   "health": 3,
   "speed": 140,
   "contactDamage": 1,
-  "score": 300,
+  "score": 50,
   "rewardCoins": 3,
   "movement": {
     "behavior": "hold_position",

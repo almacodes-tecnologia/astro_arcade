@@ -28,12 +28,14 @@
     "guardian-ferreo-i",
     "dark_saeta_i",
     "crucero-goliat-I",
-    "patrullero-k-1"
+    "patrullero-k-1",
+	"prisma_d1",
+	"cohete_r1"
   ],
   "bosses": [
     "nebara_boss",
-    "sector_02_boss",
-    "sector_03_boss",
+    "krazor_boss",
+    "velkar_boss",
     "sector_04_boss",
     "sector_05_boss"
   ],

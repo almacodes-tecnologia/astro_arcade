@@ -1,19 +1,19 @@
 {
-  "id": "sector_02_boss",
+  "id": "krazor_boss",
   "name": "Coloso Acorazado",
   "health": 400,
   "speed": 65,
   "contactDamage": 3,
-  "score": 7000,
+  "score": 220,
 
   "movementPattern": "patrol",
   "movementAmplitude": 95,
 
   "projectileDamage": 1,
   "projectileSpeed": 210,
-  "attackInterval": 1.6,
+  "attackInterval": 1.8,
   "projectileCount": 3,
-  "spreadAngle": 16,
+  "spreadAngle": 10,
 
   "visual": {
     "width": 245,
@@ -32,10 +32,10 @@
     {
       "healthThreshold": 0.5,
       "movementPattern": "zigzag",
-      "speedMultiplier": 1.3,
-      "attackInterval": 1.2,
+      "speedMultiplier": 1.4,
+      "attackInterval": 1.4,
       "projectileCount": 5,
-      "spreadAngle": 24
+      "spreadAngle": 20
     }
   ]
 }

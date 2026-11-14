@@ -6,7 +6,7 @@
   "health": 300,
   "speed": 85,
   "contactDamage": 2,
-  "score": 5000,
+  "score": 200,
 
   "movementPattern": "patrol",
   "movementAmplitude": 75,

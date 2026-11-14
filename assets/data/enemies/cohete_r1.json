@@ -1,0 +1,63 @@
+{
+  "id": "cohete_r3",
+  "name": "Cohete R-3",
+  "health": 2,
+  "speed": 115,
+  "contactDamage": 1,
+  "score": 15,
+  "rewardCoins": 1,
+  "movement": {
+    "behavior": "hold_position",
+    "pattern": "sine",
+    "targetY": 0.20,
+    "amplitude": 35,
+    "frequency": 1.0,
+    "patrolSpeed": 0
+  },
+  "weapon": {
+    "type": "single",
+    "damage": 1,
+    "projectileSpeed": 210,
+    "fireInterval": 2.1,
+    "burstCount": 1,
+    "cannonCount": 1,
+    "cannonPosition": 0.78,
+    "cannonSeparation": 0,
+    "cannonSize": 0.10
+  },
+  "visual": {
+    "shape": "rocket",
+    "dimensions": {
+      "width": 32,
+      "height": 42
+    },
+    "colors": {
+      "primary": "#8B4140",
+      "secondary": "#C16A52",
+      "accent": "#FFB45E",
+      "cockpit": "#65DFFF",
+      "engine": "#FF873D",
+      "outline": "#351D28"
+    },
+    "wings": {
+      "enabled": true,
+      "style": "delta",
+      "span": 0.85
+    },
+    "cockpit": {
+      "enabled": true
+    },
+    "engines": {
+      "enabled": true,
+      "count": 1
+    },
+    "fins": {
+      "enabled": true
+    },
+    "details": {
+      "enabled": true,
+      "armorSegments": false
+    }
+  },
+  "abilities": []
+}
