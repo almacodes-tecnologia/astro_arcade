@@ -5,7 +5,7 @@
   "health": 1,
   "speed": 100,
   "contactDamage": 1,
-  "score": 100,
+  "score": 10,
   "rewardCoins": 1,
   "movement": {
     "behavior": "hold_position",
@@ -19,7 +19,7 @@
     "type": "single",
     "damage": 1,
     "projectileSpeed": 220,
-    "fireInterval": 3.1,
+    "fireInterval": 2.8,
     "burstCount": 1,
     "cannonCount": 1,
     "cannonPosition": 0.75,

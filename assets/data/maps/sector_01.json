@@ -1,12 +1,13 @@
 
 {
-  "id": "sector_01",
-  "name": "Frontera desconocida",
-  "description": "Los primeros territorios explorados.",
-  "lore": "Durante décadas, la Frontera Exterior fue considerada una región sin interés estratégico. Sin embargo, las últimas expediciones han detectado señales de actividad en sectores que llevaban siglos abandonados. Nadie sabe quién las está emitiendo.",
+  "id": "nebara",
+  "name": "Nébara",
+    "description": "Un mundo helado donde el silencio esconde un antiguo secreto.",
+  "lore": "Hace más de un siglo, una pequeña colonia científica se estableció en Nébara para estudiar sus extrañas formaciones de hielo. Durante años, sus investigadores enviaron informes con normalidad, hasta que todas las comunicaciones cesaron repentinamente. Las expediciones posteriores encontraron las instalaciones intactas, pero completamente vacías. Desde entonces, cualquier nave que se aproxima al planeta es interceptada por sus antiguos sistemas de defensa.",
+  "epilogue": "Nébara vuelve a quedar en silencio. Pero en las profundidades del hielo, una señal acaba de activarse.",
   "visual": {
     "background": "nebulosa",
-    "music": "assets/audio/music/sector_01.mp3",
+    "music": "assets/audio/music/nebara.mp3",
     "scrollSpeed": 35
   },
   "difficulty": 1,
@@ -20,50 +21,51 @@
     {
       "id": "wave_02",
       "enemies": [
-        { "type": "mosca_z1", "count": 5, "formation": "line", "interval": 1.3 },
-        { "type": "drone_enemy", "count": 3, "formation": "v", "interval": 1.5 }
+        { "type": "mosca_z1", "count": 10, "formation": "line", "interval": 1.3 },
+        { "type": "acechador-s-1", "count": 3, "formation": "v", "interval": 1.5 }
       ]
     },
     {
       "id": "wave_03",
       "enemies": [
         { "type": "mosca_z1", "count": 5, "formation": "line", "interval": 1.4 },
-        { "type": "scout_enemy", "count": 5, "formation": "v", "interval": 1.2 }
+        { "type": "acechador-s-1", "count": 5, "formation": "v", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_04",
       "enemies": [
-        { "type": "mosca_z1", "count": 5, "formation": "line", "interval": 1.4 },
-        { "type": "scout_enemy", "count": 5, "formation": "v", "interval": 1.2 }
+        { "type": "mosca_z1", "count": 6, "formation": "line", "interval": 1.4 },
+        { "type": "caza-furia-i", "count": 4, "formation": "v", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_05",
       "enemies": [
-        { "type": "mosca_z1", "count": 5, "formation": "line", "interval": 1.2 },
-        { "type": "stalker_enemy", "count": 5, "formation": "v", "interval": 1.3 }
+        { "type": "mosca_z1", "count": 8, "formation": "line", "interval": 1.2 },
+        { "type": "acechador-s-1", "count": 6, "formation": "v", "interval": 1.3 }
       ]
     },
     {
       "id": "wave_06",
       "enemies": [
-        { "type": "mosca_z1", "count": 6, "formation": "line", "interval": 1.1 },
-        { "type": "drone_enemy", "count": 5, "formation": "v", "interval": 1.2 }
+        { "type": "mosca_z1", "count": 8, "formation": "line", "interval": 1.1 },
+        { "type": "caza-furia-i", "count": 4, "formation": "v", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_07",
       "enemies": [
         { "type": "mosca_z1", "count": 6, "formation": "line", "interval": 1.2 },
-        { "type": "drone_enemy", "count": 5, "formation": "v", "interval": 1.2 }
+        { "type": "acechador-s-1", "count": 5, "formation": "line", "interval": 1.2 }
       ]
     },
     {
       "id": "wave_08",
       "enemies": [
-        { "type": "mosca_z1", "count": 6, "formation": "line", "interval": 1.1 },
-        { "type": "stalker_enemy", "count": 6, "formation": "v", "interval": 1.2 }
+        { "type": "mosca_z1", "count": 10, "formation": "line", "interval": 1.1 },
+        { "type": "acechador-s-1", "count": 4, "formation": "v", "interval": 1.2 },
+		{ "type": "caza-furia-i", "count": 4, "formation": "v", "interval": 1.2 }
       ]
     }
   ],

@@ -2,10 +2,10 @@
 {
   "id": "caza-furia-i",
   "name": "Caza Furia I",
-  "health": 5,
+  "health": 2,
   "speed": 115,
   "contactDamage": 1,
-  "score": 250,
+  "score": 25,
   "rewardCoins": 2,
   "movement": {
     "behavior": "hold_position",
@@ -18,9 +18,9 @@
   "weapon": {
     "type": "spread",
     "damage": 1,
-    "projectileSpeed": 260,
-    "fireInterval": 2.0,
-    "burstCount": 3,
+    "projectileSpeed": 210,
+    "fireInterval": 2.5,
+    "burstCount": 1,
     "cannonCount": 2,
     "cannonPosition": 0.72,
     "cannonSeparation": 0.35,
