@@ -67,7 +67,7 @@
       "enemies": [
 	    { "type": "mosca_z1", "count": 10, "formation": "random", "interval": 1.4 },
         { "type": "acechador-s-1", "count": 4, "formation": "line", "interval": 1.4 },
-		{ "type": "dark_saeta_i", "count": 2, "formation": "random", "interval": 1.4 },
+		{ "type": "dark_saeta_i", "count": 2, "formation": "random", "interval": 1.4 }
       ]
     }
   ],
