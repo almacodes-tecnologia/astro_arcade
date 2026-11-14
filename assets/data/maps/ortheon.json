@@ -1,9 +1,11 @@
 
 {
-  "id": "sector_04",
-  "name": "Frontera de Titán",
-  "description": "Una zona militar fuertemente protegida. Sus defensas no permiten errores.",
-  "visual": {
+  "id": "Ortheon",
+  "name": "Orthéon",
+    "description": "Mundo desértico que alberga las ruinas de una civilización desaparecida y sus sistemas de defensa.",
+  "lore": "Orthéon fue el centro de una civilización avanzada que desapareció hace siglos. Sus ciudades permanecen parcialmente intactas, protegidas por escuadrones de naves automáticas que siguen patrullando sus fronteras. Cualquier nave que se aproxima es identificada como una amenaza y atacada sin previo aviso.",
+  "epilogue": "Las defensas de Orthéon han sido neutralizadas. Los registros recuperados revelan que sus antiguos habitantes abandonaron el planeta durante una evacuación masiva. No hay indicios de una guerra ni de una catástrofe natural. Todos los archivos terminan con la misma fecha y una orden: «Protocolo de aislamiento permanente».",
+   "visual": {
     "background": "tormenta_arena",
     "music": "assets/audio/music/sector_04.mp3",
     "scrollSpeed": 65

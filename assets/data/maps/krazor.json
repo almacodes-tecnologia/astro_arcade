@@ -1,8 +1,10 @@
 
 {
-  "id": "sector_02",
-  "name": "Cinturón de chatarra",
-  "description": "Un antiguo campo de batalla convertido en un laberinto de restos metálicos.",
+  "id": "krazor",
+  "name": "Krazor",
+    "description": "Mundo volcánico dominado por antiguas explotaciones mineras y complejos industriales.",
+  "lore": "Las compañías mineras abandonaron Krazor cuando la actividad volcánica comenzó a superar los límites de seguridad. Durante años, sus instalaciones permanecieron inactivas. Sin embargo, las últimas exploraciones han detectado excavadoras en funcionamiento y señales procedentes de las profundidades. Nadie ha autorizado su reactivación.",
+  "epilogue": "La destrucción del núcleo de control ha detenido la maquinaria minera. Entre los restos de la instalación se ha recuperado un registro que confirma que las excavadoras no estaban extrayendo minerales, sino excavando hacia una estructura enterrada cuya antigüedad supera cualquier registro conocido.",
   "visual": {
     "background": "industrial",
     "music": "assets/audio/music/sector_02.mp3",

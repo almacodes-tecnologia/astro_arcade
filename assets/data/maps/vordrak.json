@@ -1,8 +1,11 @@
 
 {
-  "id": "sector_05",
-  "name": "Núcleo de la Oscuridad",
-  "description": "El último territorio conocido. Las fuerzas enemigas concentran aquí todo su poder.",
+  "id": "vordrak",
+  "name": "Vordrak",
+  "description": "Planeta tóxico cubierto por océanos químicos, tormentas corrosivas y antiguas instalaciones de procesamiento.",
+    "lore": "Vordrak fue utilizado durante décadas como centro de procesamiento de materiales peligrosos. Tras perderse el contacto con sus instalaciones, el planeta quedó aislado por las autoridades. Las sondas recientes han detectado emisiones energéticas bajo sus océanos químicos y actividad en complejos que deberían llevar siglos abandonados.",
+  "epilogue": "El núcleo de procesamiento ha sido destruido y las emisiones energéticas han cesado. Los registros recuperados revelan que las instalaciones no estaban tratando residuos industriales, sino una sustancia desconocida extraída de las profundidades del planeta. Su destino final aparece registrado en una única coordenada: un sistema que no figura en ningún mapa de navegación.",
+  
   "visual": {
     "background": "toxico",
     "music": "assets/audio/music/sector_05.mp3",

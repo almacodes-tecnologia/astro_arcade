@@ -1,9 +1,11 @@
 
 {
-  "id": "sector_03",
-  "name": "Nebulosa Carmesí",
-  "description": "Una región de turbulencias electromagnéticas dominada por escuadrones de combate.",
-  "visual": {
+  "id": "velkar",
+  "name": "Velkar",
+    "description": "Planeta selvático cubierto por una vegetación exuberante y estructuras de origen desconocido.",
+  "lore": "Las expediciones enviadas a Velkar han desaparecido sin transmitir ninguna señal de socorro. Las últimas imágenes recibidas muestran enormes construcciones ocultas bajo la vegetación, ausentes de todos los mapas conocidos. Las sondas detectan actividad energética en su interior, aunque no existe constancia de que el planeta haya albergado una colonia.",
+  "epilogue": "Las estructuras han dejado de emitir energía tras la destrucción de su sistema de defensa. En su interior se han encontrado registros de visitantes procedentes de otros sistemas. El último registro contiene una advertencia incompleta: «No permitáis que despierte aquello que permanece bajo la superficie».",
+   "visual": {
     "background": "digital",
     "music": "assets/audio/music/sector_03.mp3",
     "scrollSpeed": 55

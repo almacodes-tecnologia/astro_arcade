@@ -13,10 +13,10 @@
   ],
   "maps": [
     "nebara",
-    "sector_02",
-    "sector_03",
-    "sector_04",
-    "sector_05"
+    "krazor",
+    "velkar",
+    "ortheon",
+    "vordrak"
   ],
   "enemies": [
     "mosca_z1",
