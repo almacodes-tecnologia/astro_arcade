@@ -1,0 +1,49 @@
+{
+  "id": "velkar_boss",
+  "name": "Oráculo del Vacío",
+  "health": 500,
+  "speed": 95,
+  "contactDamage": 3,
+  "score": 9000,
+
+  "movementPattern": "zigzag",
+  "movementAmplitude": 110,
+
+  "projectileDamage": 1,
+  "projectileSpeed": 230,
+  "attackInterval": 1.5,
+  "projectileCount": 4,
+  "spreadAngle": 18,
+
+  "visual": {
+    "width": 230,
+    "height": 175,
+    "primaryColor": "#493A78",
+    "secondaryColor": "#8066B5",
+    "accentColor": "#D66BFF",
+    "cockpitColor": "#5FFFF0",
+    "outlineColor": "#21152F",
+    "wingSpan": 1.45,
+    "engineCount": 3,
+    "creatureType": "multi_eye"
+  },
+
+  "phases": [
+    {
+      "healthThreshold": 0.6,
+      "movementPattern": "patrol",
+      "speedMultiplier": 1.25,
+      "attackInterval": 1.2,
+      "projectileCount": 5,
+      "spreadAngle": 22
+    },
+    {
+      "healthThreshold": 0.25,
+      "movementPattern": "zigzag",
+      "speedMultiplier": 1.55,
+      "attackInterval": 0.9,
+      "projectileCount": 7,
+      "spreadAngle": 30
+    }
+  ]
+}
